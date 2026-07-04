@@ -38,7 +38,7 @@ onMounted(() => {
   })
 })
 
-const { copy, copied, isSupported } = useClipboard()
+const { copy, copied, isSupported } = useClipboard({ legacy: true })
 
 function handleCopy() {
   copy(JSON.stringify(diffTwoObj(settingsDefault, appSettingsStore.settings), null, 2))

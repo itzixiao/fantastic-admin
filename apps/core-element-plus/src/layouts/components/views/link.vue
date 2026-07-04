@@ -6,7 +6,7 @@ defineOptions({
 })
 
 const route = useRoute()
-const { copy, copied } = useClipboard()
+const { copy, copied } = useClipboard({ legacy: true })
 watch(copied, (val) => {
   val && useFaToast().success('复制成功')
 })
