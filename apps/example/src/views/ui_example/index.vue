@@ -77,7 +77,7 @@ function openGuide() {
       </FaButton>
     </FaPageHeader>
 
-    <section class="p-[clamp(16px,3vw,28px)] flex-1 min-h-0 overflow-auto" aria-label="UI library previews">
+    <section class="p-4 flex-1 min-h-0 overflow-auto" aria-label="UI library previews">
       <div class="gap-4 grid grid-cols-[repeat(auto-fit,minmax(min(100%,320px),1fr))]">
         <button
           v-for="(item, index) in previewItems"

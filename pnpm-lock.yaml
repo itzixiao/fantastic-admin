@@ -247,8 +247,8 @@ catalogs:
       specifier: ^19.14.1
       version: 19.14.1
     tinymce:
-      specifier: 7.9.1
-      version: 7.9.1
+      specifier: 7.9.3
+      version: 7.9.3
     tsx:
       specifier: ^4.22.4
       version: 4.22.4
@@ -1975,7 +1975,7 @@ importers:
         version: link:../../packages/types
       '@tinymce/tinymce-vue':
         specifier: 'catalog:'
-        version: 6.3.0(tinymce@7.9.1)(vue@3.5.39(typescript@6.0.3))
+        version: 6.3.0(tinymce@7.9.3)(vue@3.5.39(typescript@6.0.3))
       '@vee-validate/zod':
         specifier: 'catalog:'
         version: 4.15.1(vue@3.5.39(typescript@6.0.3))(zod@4.4.3)
@@ -2065,7 +2065,7 @@ importers:
         version: 3.6.0
       tinymce:
         specifier: 'catalog:'
-        version: 7.9.1
+        version: 7.9.3
       type-fest:
         specifier: 'catalog:'
         version: 5.7.0
@@ -8244,8 +8244,8 @@ packages:
     resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
     engines: {node: '>=12.0.0'}
 
-  tinymce@7.9.1:
-    resolution: {integrity: sha512-zaOHwmiP1EqTeLRXAvVriDb00JYnfEjWGPdKEuac7MiZJ5aiDMZ4Unc98Gmajn+PBljOmO1GKV6G0KwWn3+k8A==}
+  tinymce@7.9.3:
+    resolution: {integrity: sha512-Mtm54U5YJ6Pyo/GaAx+JSHXTGEuxrg2AowVWCD9zy1eBolp5Ub7S1rTtsyQdxhPegfhLuR3VLiTKGw1tacv09g==}
 
   to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
@@ -9015,7 +9015,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.29.7
       '@babel/helper-validator-option': 7.29.7
-      browserslist: 4.28.2
+      browserslist: 4.28.4
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -10651,11 +10651,11 @@ snapshots:
       '@tanstack/virtual-core': 3.17.0
       vue: 3.5.39(typescript@6.0.3)
 
-  '@tinymce/tinymce-vue@6.3.0(tinymce@7.9.1)(vue@3.5.39(typescript@6.0.3))':
+  '@tinymce/tinymce-vue@6.3.0(tinymce@7.9.3)(vue@3.5.39(typescript@6.0.3))':
     dependencies:
       vue: 3.5.39(typescript@6.0.3)
     optionalDependencies:
-      tinymce: 7.9.1
+      tinymce: 7.9.3
 
   '@turf/boolean-clockwise@6.5.0':
     dependencies:
@@ -10812,8 +10812,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.61.0(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.61.0(typescript@6.0.3)
-      '@typescript-eslint/types': 8.61.0
+      '@typescript-eslint/tsconfig-utils': 8.62.1(typescript@6.0.3)
+      '@typescript-eslint/types': 8.62.1
       debug: 4.4.3
       typescript: 6.0.3
     transitivePeerDependencies:
@@ -11628,7 +11628,7 @@ snapshots:
       '@vue/shared': 3.5.39
       estree-walker: 2.0.2
       magic-string: 0.30.21
-      postcss: 8.5.15
+      postcss: 8.5.16
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.38':
@@ -14309,8 +14309,8 @@ snapshots:
     dependencies:
       htmlparser2: 8.0.0
       js-tokens: 9.0.0
-      postcss: 8.5.15
-      postcss-safe-parser: 6.0.0(postcss@8.5.15)
+      postcss: 8.5.16
+      postcss-safe-parser: 6.0.0(postcss@8.5.16)
 
   postcss-media-query-parser@0.2.3: {}
 
@@ -14321,9 +14321,9 @@ snapshots:
 
   postcss-resolve-nested-selector@0.1.6: {}
 
-  postcss-safe-parser@6.0.0(postcss@8.5.15):
+  postcss-safe-parser@6.0.0(postcss@8.5.16):
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.16
 
   postcss-safe-parser@7.0.1(postcss@8.5.15):
     dependencies:
@@ -14338,9 +14338,9 @@ snapshots:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  postcss-sorting@10.0.0(postcss@8.5.15):
+  postcss-sorting@10.0.0(postcss@8.5.16):
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.16
 
   postcss-value-parser@4.2.0: {}
 
@@ -14938,8 +14938,8 @@ snapshots:
 
   stylelint-order@8.1.1(stylelint@17.14.0(typescript@6.0.3)):
     dependencies:
-      postcss: 8.5.15
-      postcss-sorting: 10.0.0(postcss@8.5.15)
+      postcss: 8.5.16
+      postcss-sorting: 10.0.0(postcss@8.5.16)
       stylelint: 17.14.0(typescript@6.0.3)
 
   stylelint-scss@7.2.0(stylelint@17.14.0(typescript@6.0.3)):
@@ -15144,7 +15144,7 @@ snapshots:
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
 
-  tinymce@7.9.1: {}
+  tinymce@7.9.3: {}
 
   to-regex-range@5.0.1:
     dependencies:

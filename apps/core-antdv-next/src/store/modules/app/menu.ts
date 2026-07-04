@@ -180,7 +180,7 @@ export const useAppMenuStore = defineStore(
         if (item.children) {
           return isPathInMenus(item.children, path)
         }
-        return path.indexOf(`${item.path}/`) === 0 || path === item.path
+        return path.startsWith(`${item.path}/`) || path === item.path
       })
       return flag
     }
