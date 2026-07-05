@@ -14,7 +14,7 @@ const throttle = useThrottleFn(() => {
 }, 1000)
 
 const input = ref('test')
-const { text, copy, copied, isSupported } = useClipboard()
+const { text, copy, copied, isSupported } = useClipboard({ legacy: true })
 watch(copied, (val) => {
   val && useFaToast().success(text.value)
 })

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useClipboard } from '@vueuse/core'
 
-const { text, copy, copied } = useClipboard()
+const { text, copy, copied } = useClipboard({ legacy: true })
 
 /* eslint-disable regexp/no-super-linear-backtracking, regexp/no-dupe-disjunctions, regexp/optimal-quantifier-concatenation, regexp/no-useless-assertions, regexp/no-contradiction-with-assertion, regexp/no-misleading-capturing-group */
 const rules = ref([

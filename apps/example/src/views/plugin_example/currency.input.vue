@@ -144,7 +144,7 @@ onMounted(async () => {
   numberValue.value = 1234.5
 })
 
-const { copy, copied, isSupported } = useClipboard()
+const { copy, copied, isSupported } = useClipboard({ legacy: true })
 
 watch(copied, (val) => {
   if (val) {

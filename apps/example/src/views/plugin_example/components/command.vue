@@ -5,7 +5,7 @@ const props = defineProps<{
   text: string
 }>()
 
-const { copy, copied, isSupported } = useClipboard()
+const { copy, copied, isSupported } = useClipboard({ legacy: true })
 </script>
 
 <template>
