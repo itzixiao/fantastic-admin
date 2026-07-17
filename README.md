@@ -48,12 +48,6 @@
 
 [![star](https://atomgit.com/fantastic-admin/basic/star/badge.svg)](https://atomgit.com/fantastic-admin/basic)
 
-<details>
-<summary>Github Stars 曲线</summary>
-
-[![Stargazers over time](https://starchart.cc/fantastic-admin/basic.svg)](https://starchart.cc/fantastic-admin/basic)
-</details>
-
 ## 生态
 
 - [`Fantastic-startkit`](https://hooray.github.io/fantastic-startkit/) - 简单好用的 Vue3 项目启动套件

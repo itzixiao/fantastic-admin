@@ -24,7 +24,7 @@ An **AI-oriented** admin system framework
 
 - AI-friendly engineering foundation with multiple built-in Skills
 - First-class tech stack: Vue 3.6 / Vite 8 / Pinia / UnoCSS / VueUse / TypeScript / ESLint / Stylelint / ...
-- Freely choose your preferred UI library, with Element Plus by default
+- Freely choose your preferred UI library
 - 8 built-in theme schemes with extensibility for distinct industry brand styles
 - 7 navigation menu modes to match products at different growth stages
 - Fine-grained and controllable page keep-alive strategy
@@ -47,12 +47,6 @@ If you find Fantastic-admin useful, or you are already using it, please consider
 [![star](https://gitee.com/fantastic-admin/basic/badge/star.svg?theme=dark)](https://gitee.com/fantastic-admin/basic)
 
 [![star](https://atomgit.com/fantastic-admin/basic/star/badge.svg)](https://atomgit.com/fantastic-admin/basic)
-
-<details>
-<summary>Github Stars Chart</summary>
-
-[![Stargazers over time](https://starchart.cc/fantastic-admin/basic.svg)](https://starchart.cc/fantastic-admin/basic)
-</details>
 
 ## Ecosystem
 
