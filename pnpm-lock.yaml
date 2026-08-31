@@ -28,14 +28,14 @@ catalogs:
       specifier: ^10.6.0
       version: 10.6.0
     '@iconify/json':
-      specifier: ^2.2.521
-      version: 2.2.521
+      specifier: ^2.2.522
+      version: 2.2.522
     '@iconify/vue':
       specifier: ^5.0.1
       version: 5.0.1
     '@lucide/vue':
-      specifier: ^1.34.0
-      version: 1.34.0
+      specifier: ^1.37.0
+      version: 1.37.0
     '@spiriit/vite-plugin-svg-spritemap':
       specifier: ^7.2.0
       version: 7.2.0
@@ -43,8 +43,8 @@ catalogs:
       specifier: ^5.0.0
       version: 5.0.0
     '@tanstack/vue-table':
-      specifier: ^8.21.3
-      version: 8.21.3
+      specifier: ^9.2.4
+      version: 9.2.4
     '@tinymce/tinymce-vue':
       specifier: ^6.3.0
       version: 6.3.0
@@ -100,8 +100,8 @@ catalogs:
       specifier: ^14.4.0
       version: 14.4.0
     '@zumer/snapdom':
-      specifier: ^2.24.10
-      version: 2.24.10
+      specifier: ^2.24.12
+      version: 2.24.12
     animate.css:
       specifier: ^4.1.1
       version: 4.1.1
@@ -142,8 +142,8 @@ catalogs:
       specifier: ^3.4.3
       version: 3.4.3
     es-toolkit:
-      specifier: ^1.51.0
-      version: 1.51.0
+      specifier: ^1.52.0
+      version: 1.52.0
     eslint:
       specifier: ^10.9.1
       version: 10.9.1
@@ -154,14 +154,14 @@ catalogs:
       specifier: ^11.4.0
       version: 11.4.0
     hotkeys-js:
-      specifier: ^4.0.5
-      version: 4.0.5
+      specifier: ^4.0.7
+      version: 4.0.7
     http-server:
       specifier: ^14.1.1
       version: 14.1.1
     lint-staged:
-      specifier: ^17.3.0
-      version: 17.3.0
+      specifier: ^17.4.1
+      version: 17.4.1
     mitt:
       specifier: ^3.0.1
       version: 3.0.1
@@ -214,8 +214,8 @@ catalogs:
       specifier: 2.0.0
       version: 2.0.0
     simple-git-hooks:
-      specifier: ^2.13.1
-      version: 2.13.1
+      specifier: ^2.14.0
+      version: 2.14.0
     splitpanes:
       specifier: ^4.1.2
       version: 4.1.2
@@ -322,8 +322,8 @@ catalogs:
       specifier: ^0.4.0
       version: 0.4.0
     vue-router:
-      specifier: ^5.2.0
-      version: 5.2.0
+      specifier: ^5.3.0
+      version: 5.3.0
     vue-sonner:
       specifier: ^2.0.9
       version: 2.0.9
@@ -331,29 +331,29 @@ catalogs:
       specifier: ^3.3.11
       version: 3.3.11
     vxe-pc-ui:
-      specifier: ^4.17.19
-      version: 4.17.19
+      specifier: ^4.17.21
+      version: 4.17.21
     vxe-table:
       specifier: ^4.21.2
       version: 4.21.2
     xe-utils:
-      specifier: ^4.0.12
-      version: 4.0.12
+      specifier: ^4.0.13
+      version: 4.0.13
     zod:
-      specifier: ^4.4.3
-      version: 4.4.3
+      specifier: ^4.5.2
+      version: 4.5.2
   element-plus:
     element-plus:
       specifier: ^2.14.5
       version: 2.14.5
   naive-ui:
     naive-ui:
-      specifier: ^2.45.2
-      version: 2.45.2
+      specifier: ^2.45.3
+      version: 2.45.3
   tdesign:
     tdesign-vue-next:
-      specifier: ^1.20.6
-      version: 1.20.6
+      specifier: ^1.20.7
+      version: 1.20.7
   vexip-ui:
     vexip-ui:
       specifier: ^2.3.40
@@ -374,7 +374,7 @@ importers:
         version: link:packages/themes
       '@iconify/json':
         specifier: 'catalog:'
-        version: 2.2.521
+        version: 2.2.522
       '@stylistic/stylelint-config':
         specifier: 'catalog:'
         version: 5.0.0(stylelint@17.14.1(supports-color@10.2.2)(typescript@6.0.3))
@@ -401,13 +401,13 @@ importers:
         version: 10.9.1(jiti@2.7.0)(supports-color@10.2.2)
       lint-staged:
         specifier: 'catalog:'
-        version: 17.3.0
+        version: 17.4.1
       npm-run-all2:
         specifier: 'catalog:'
         version: 9.0.3
       simple-git-hooks:
         specifier: 'catalog:'
-        version: 2.13.1
+        version: 2.14.0
       stylelint:
         specifier: 'catalog:'
         version: 17.14.1(supports-color@10.2.2)(typescript@6.0.3)
@@ -458,7 +458,7 @@ importers:
         version: link:../../packages/types
       '@vee-validate/zod':
         specifier: 'catalog:'
-        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.4.3)
+        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.5.2)
       '@vueuse/core':
         specifier: 'catalog:'
         version: 14.4.0(vue@3.5.42(typescript@6.0.3))
@@ -467,7 +467,7 @@ importers:
         version: 14.4.0(async-validator@4.2.5)(axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2))(change-case@5.4.4)(nprogress@0.2.0)(sortablejs@1.15.7)(vue@3.5.42(typescript@6.0.3))
       '@zumer/snapdom':
         specifier: 'catalog:'
-        version: 2.24.10
+        version: 2.24.12
       axios:
         specifier: 'catalog:'
         version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
@@ -485,7 +485,7 @@ importers:
         version: 3.4.3
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       mitt:
         specifier: 'catalog:'
         version: 3.0.1
@@ -536,10 +536,10 @@ importers:
         version: 3.5.42(typescript@6.0.3)
       vue-router:
         specifier: 'catalog:'
-        version: 5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+        version: 5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
       zod:
         specifier: 'catalog:'
-        version: 4.4.3
+        version: 4.5.2
     devDependencies:
       '@faker-js/faker':
         specifier: 'catalog:'
@@ -645,7 +645,7 @@ importers:
         version: link:../../packages/types
       '@vee-validate/zod':
         specifier: 'catalog:'
-        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.4.3)
+        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.5.2)
       '@vueuse/core':
         specifier: 'catalog:'
         version: 14.4.0(vue@3.5.42(typescript@6.0.3))
@@ -654,7 +654,7 @@ importers:
         version: 14.4.0(async-validator@4.2.5)(axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2))(change-case@5.4.4)(nprogress@0.2.0)(sortablejs@1.15.7)(vue@3.5.42(typescript@6.0.3))
       '@zumer/snapdom':
         specifier: 'catalog:'
-        version: 2.24.10
+        version: 2.24.12
       ant-design-vue:
         specifier: catalog:ant-design-vue
         version: 4.2.6(vue@3.5.42(typescript@6.0.3))
@@ -675,7 +675,7 @@ importers:
         version: 3.4.3
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       mitt:
         specifier: 'catalog:'
         version: 3.0.1
@@ -726,10 +726,10 @@ importers:
         version: 3.5.42(typescript@6.0.3)
       vue-router:
         specifier: 'catalog:'
-        version: 5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+        version: 5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
       zod:
         specifier: 'catalog:'
-        version: 4.4.3
+        version: 4.5.2
     devDependencies:
       '@faker-js/faker':
         specifier: 'catalog:'
@@ -835,7 +835,7 @@ importers:
         version: link:../../packages/types
       '@vee-validate/zod':
         specifier: 'catalog:'
-        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.4.3)
+        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.5.2)
       '@vueuse/core':
         specifier: 'catalog:'
         version: 14.4.0(vue@3.5.42(typescript@6.0.3))
@@ -844,7 +844,7 @@ importers:
         version: 14.4.0(async-validator@4.2.5)(axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2))(change-case@5.4.4)(nprogress@0.2.0)(sortablejs@1.15.7)(vue@3.5.42(typescript@6.0.3))
       '@zumer/snapdom':
         specifier: 'catalog:'
-        version: 2.24.10
+        version: 2.24.12
       antdv-next:
         specifier: catalog:antdv-next
         version: 1.5.2(date-fns@4.4.0)(vue@3.5.42(typescript@6.0.3))
@@ -865,7 +865,7 @@ importers:
         version: 3.4.3
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       mitt:
         specifier: 'catalog:'
         version: 3.0.1
@@ -916,10 +916,10 @@ importers:
         version: 3.5.42(typescript@6.0.3)
       vue-router:
         specifier: 'catalog:'
-        version: 5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+        version: 5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
       zod:
         specifier: 'catalog:'
-        version: 4.4.3
+        version: 4.5.2
     devDependencies:
       '@faker-js/faker':
         specifier: 'catalog:'
@@ -1025,7 +1025,7 @@ importers:
         version: link:../../packages/types
       '@vee-validate/zod':
         specifier: 'catalog:'
-        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.4.3)
+        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.5.2)
       '@vueuse/core':
         specifier: 'catalog:'
         version: 14.4.0(vue@3.5.42(typescript@6.0.3))
@@ -1034,7 +1034,7 @@ importers:
         version: 14.4.0(async-validator@4.2.5)(axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2))(change-case@5.4.4)(nprogress@0.2.0)(sortablejs@1.15.7)(vue@3.5.42(typescript@6.0.3))
       '@zumer/snapdom':
         specifier: 'catalog:'
-        version: 2.24.10
+        version: 2.24.12
       axios:
         specifier: 'catalog:'
         version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1052,7 +1052,7 @@ importers:
         version: 3.4.3
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       mitt:
         specifier: 'catalog:'
         version: 3.0.1
@@ -1103,10 +1103,10 @@ importers:
         version: 3.5.42(typescript@6.0.3)
       vue-router:
         specifier: 'catalog:'
-        version: 5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+        version: 5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
       zod:
         specifier: 'catalog:'
-        version: 4.4.3
+        version: 4.5.2
     devDependencies:
       '@arco-design/web-vue':
         specifier: catalog:arco-design-vue
@@ -1215,7 +1215,7 @@ importers:
         version: link:../../packages/types
       '@vee-validate/zod':
         specifier: 'catalog:'
-        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.4.3)
+        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.5.2)
       '@vueuse/core':
         specifier: 'catalog:'
         version: 14.4.0(vue@3.5.42(typescript@6.0.3))
@@ -1224,7 +1224,7 @@ importers:
         version: 14.4.0(async-validator@4.2.5)(axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2))(change-case@5.4.4)(nprogress@0.2.0)(sortablejs@1.15.7)(vue@3.5.42(typescript@6.0.3))
       '@zumer/snapdom':
         specifier: 'catalog:'
-        version: 2.24.10
+        version: 2.24.12
       axios:
         specifier: 'catalog:'
         version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1245,7 +1245,7 @@ importers:
         version: 3.4.3
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       mitt:
         specifier: 'catalog:'
         version: 3.0.1
@@ -1296,10 +1296,10 @@ importers:
         version: 3.5.42(typescript@6.0.3)
       vue-router:
         specifier: 'catalog:'
-        version: 5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+        version: 5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
       zod:
         specifier: 'catalog:'
-        version: 4.4.3
+        version: 4.5.2
     devDependencies:
       '@faker-js/faker':
         specifier: 'catalog:'
@@ -1405,7 +1405,7 @@ importers:
         version: link:../../packages/types
       '@vee-validate/zod':
         specifier: 'catalog:'
-        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.4.3)
+        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.5.2)
       '@vueuse/core':
         specifier: 'catalog:'
         version: 14.4.0(vue@3.5.42(typescript@6.0.3))
@@ -1414,7 +1414,7 @@ importers:
         version: 14.4.0(async-validator@4.2.5)(axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2))(change-case@5.4.4)(nprogress@0.2.0)(sortablejs@1.15.7)(vue@3.5.42(typescript@6.0.3))
       '@zumer/snapdom':
         specifier: 'catalog:'
-        version: 2.24.10
+        version: 2.24.12
       axios:
         specifier: 'catalog:'
         version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1432,7 +1432,7 @@ importers:
         version: 3.4.3
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       mitt:
         specifier: 'catalog:'
         version: 3.0.1
@@ -1483,10 +1483,10 @@ importers:
         version: 3.5.42(typescript@6.0.3)
       vue-router:
         specifier: 'catalog:'
-        version: 5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+        version: 5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
       zod:
         specifier: 'catalog:'
-        version: 4.4.3
+        version: 4.5.2
     devDependencies:
       '@faker-js/faker':
         specifier: 'catalog:'
@@ -1529,7 +1529,7 @@ importers:
         version: 14.1.1(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
       naive-ui:
         specifier: catalog:naive-ui
-        version: 2.45.2(vue@3.5.42(typescript@6.0.3))
+        version: 2.45.3(vue@3.5.42(typescript@6.0.3))
       postcss:
         specifier: 'catalog:'
         version: 8.5.26
@@ -1595,7 +1595,7 @@ importers:
         version: link:../../packages/types
       '@vee-validate/zod':
         specifier: 'catalog:'
-        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.4.3)
+        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.5.2)
       '@vueuse/core':
         specifier: 'catalog:'
         version: 14.4.0(vue@3.5.42(typescript@6.0.3))
@@ -1604,7 +1604,7 @@ importers:
         version: 14.4.0(async-validator@4.2.5)(axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2))(change-case@5.4.4)(nprogress@0.2.0)(sortablejs@1.15.7)(vue@3.5.42(typescript@6.0.3))
       '@zumer/snapdom':
         specifier: 'catalog:'
-        version: 2.24.10
+        version: 2.24.12
       axios:
         specifier: 'catalog:'
         version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1622,7 +1622,7 @@ importers:
         version: 3.4.3
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       mitt:
         specifier: 'catalog:'
         version: 3.0.1
@@ -1658,7 +1658,7 @@ importers:
         version: 3.6.0
       tdesign-vue-next:
         specifier: catalog:tdesign
-        version: 1.20.6(vue@3.5.42(typescript@6.0.3))
+        version: 1.20.7(vue@3.5.42(typescript@6.0.3))
       type-fest:
         specifier: 'catalog:'
         version: 5.8.0
@@ -1676,10 +1676,10 @@ importers:
         version: 3.5.42(typescript@6.0.3)
       vue-router:
         specifier: 'catalog:'
-        version: 5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+        version: 5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
       zod:
         specifier: 'catalog:'
-        version: 4.4.3
+        version: 4.5.2
     devDependencies:
       '@faker-js/faker':
         specifier: 'catalog:'
@@ -1785,7 +1785,7 @@ importers:
         version: link:../../packages/types
       '@vee-validate/zod':
         specifier: 'catalog:'
-        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.4.3)
+        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.5.2)
       '@vueuse/core':
         specifier: 'catalog:'
         version: 14.4.0(vue@3.5.42(typescript@6.0.3))
@@ -1794,7 +1794,7 @@ importers:
         version: 14.4.0(async-validator@4.2.5)(axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2))(change-case@5.4.4)(nprogress@0.2.0)(sortablejs@1.15.7)(vue@3.5.42(typescript@6.0.3))
       '@zumer/snapdom':
         specifier: 'catalog:'
-        version: 2.24.10
+        version: 2.24.12
       axios:
         specifier: 'catalog:'
         version: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1812,7 +1812,7 @@ importers:
         version: 3.4.3
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       mitt:
         specifier: 'catalog:'
         version: 3.0.1
@@ -1866,10 +1866,10 @@ importers:
         version: 3.5.42(typescript@6.0.3)
       vue-router:
         specifier: 'catalog:'
-        version: 5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+        version: 5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
       zod:
         specifier: 'catalog:'
-        version: 4.4.3
+        version: 4.5.2
     devDependencies:
       '@faker-js/faker':
         specifier: 'catalog:'
@@ -1978,7 +1978,7 @@ importers:
         version: 6.3.0(tinymce@7.9.3)(vue@3.5.42(typescript@6.0.3))
       '@vee-validate/zod':
         specifier: 'catalog:'
-        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.4.3)
+        version: 4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.5.2)
       '@visactor/vchart':
         specifier: 'catalog:'
         version: 2.1.6
@@ -1990,7 +1990,7 @@ importers:
         version: 14.4.0(async-validator@4.2.5)(axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2))(change-case@5.4.4)(nprogress@0.2.0)(sortablejs@1.15.7)(vue@3.5.42(typescript@6.0.3))
       '@zumer/snapdom':
         specifier: 'catalog:'
-        version: 2.24.10
+        version: 2.24.12
       animate.css:
         specifier: 'catalog:'
         version: 4.1.1
@@ -2017,7 +2017,7 @@ importers:
         version: 3.4.3
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       mitt:
         specifier: 'catalog:'
         version: 3.0.1
@@ -2092,19 +2092,19 @@ importers:
         version: 2.4.3(vue@3.5.42(typescript@6.0.3))
       vue-router:
         specifier: 'catalog:'
-        version: 5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+        version: 5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
       vxe-pc-ui:
         specifier: 'catalog:'
-        version: 4.17.19(vue@3.5.42(typescript@6.0.3))
+        version: 4.17.21(vue@3.5.42(typescript@6.0.3))
       vxe-table:
         specifier: 'catalog:'
         version: 4.21.2
       xe-utils:
         specifier: 'catalog:'
-        version: 4.0.12
+        version: 4.0.13
       zod:
         specifier: 'catalog:'
-        version: 4.4.3
+        version: 4.5.2
     devDependencies:
       '@faker-js/faker':
         specifier: 'catalog:'
@@ -2201,10 +2201,10 @@ importers:
         version: 5.0.1(vue@3.5.42(typescript@6.0.3))
       '@lucide/vue':
         specifier: 'catalog:'
-        version: 1.34.0(vue@3.5.42(typescript@6.0.3))
+        version: 1.37.0(vue@3.5.42(typescript@6.0.3))
       '@tanstack/vue-table':
         specifier: 'catalog:'
-        version: 8.21.3(vue@3.5.42(typescript@6.0.3))
+        version: 9.2.4(vue@3.5.42(typescript@6.0.3))
       '@vueuse/components':
         specifier: 'catalog:'
         version: 14.4.0(vue@3.5.42(typescript@6.0.3))
@@ -2222,7 +2222,7 @@ importers:
         version: 2.1.1
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       filesize:
         specifier: 'catalog:'
         version: 11.0.22
@@ -2285,7 +2285,7 @@ importers:
         version: link:../settings
       hotkeys-js:
         specifier: 'catalog:'
-        version: 4.0.5
+        version: 4.0.7
       type-fest:
         specifier: 'catalog:'
         version: 5.8.0
@@ -2300,7 +2300,7 @@ importers:
         version: 1.7.0
       '@iconify/json':
         specifier: 'catalog:'
-        version: 2.2.521
+        version: 2.2.522
       fs-extra:
         specifier: 'catalog:'
         version: 11.4.0
@@ -2319,7 +2319,7 @@ importers:
         version: 6.1.7
       es-toolkit:
         specifier: 'catalog:'
-        version: 1.51.0
+        version: 1.52.0
       type-fest:
         specifier: 'catalog:'
         version: 5.8.0
@@ -2330,7 +2330,7 @@ importers:
     dependencies:
       vue-router:
         specifier: 'catalog:'
-        version: 5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+        version: 5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
 
 packages:
 
@@ -2468,10 +2468,6 @@ packages:
     resolution: {integrity: sha512-gZbepsdh3WDtgZKWL+vTPh71LSBrm/Y4/QDZBVCcYfmeTEEuoOYwlSy+G1StfJg+/Zy550u/3TATbm7qDbbMtg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/generator@8.0.0':
-    resolution: {integrity: sha512-NT9NrVwJsbSV6Y2FSstWa71EETOnzrjkL5/wX3D2mYHtKM+qvqB1DvR4D0Setb/gDBsHzRICifwEWMO8CnTF6g==}
-    engines: {node: ^22.18.0 || >=24.11.0}
-
   '@babel/helper-annotate-as-pure@7.29.7':
     resolution: {integrity: sha512-OoK6239jHPuSQOoS0kfTVKn0b/rVTk0seKq4Gd2UMLtmOVLjDC0ki3e+c90Trqv2gMfvJFqkiljrr568+qddiw==}
     engines: {node: '>=6.9.0'}
@@ -2543,17 +2539,9 @@ packages:
     resolution: {integrity: sha512-Pb5ijPrZ89GDH8223L4UP8i6QApWxs04RbPQJTeWDV0/keR2E36MeKnyr6LYmUUvqRRI+Iv87SuF1W6ErINzYw==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/helper-string-parser@8.0.0':
-    resolution: {integrity: sha512-6mJgmFFFIIO82vvoLt9XtRC7/TkzXfts1t/SpRX4IHSzMgqoPYCWesVu1udUPUWioAE/2fcG6WuI8zrkE1gwrg==}
-    engines: {node: ^22.18.0 || >=24.11.0}
-
   '@babel/helper-validator-identifier@7.29.7':
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
-
-  '@babel/helper-validator-identifier@8.0.4':
-    resolution: {integrity: sha512-4wFaiLd0bVo4cIoTXI3zKI038NIWE/cr3jvBjejOVYVxV/m8Ltav1USiGzG1fmS5J2RhgEOgXNNK46cRPnRsrg==}
-    engines: {node: ^22.18.0 || >=24.11.0}
 
   '@babel/helper-validator-option@7.29.7':
     resolution: {integrity: sha512-N9ZErrD+yW5geCDtBqnOoxmR8+tNKiGuxKlDpuJxfsqpa2dFcexaziGAE/qoHLiDDreVNMupxGmSoNlyvsA3gw==}
@@ -2570,11 +2558,6 @@ packages:
   '@babel/parser@7.29.8':
     resolution: {integrity: sha512-E8lTAYNB1KW+FH+VGJuZM1ioAx2E6oVlvQFRrf5P8ZZmsiJXYAD9vTFV7yyEURNzgh1dFqMZuO6tUwcARbqFCA==}
     engines: {node: '>=6.0.0'}
-    hasBin: true
-
-  '@babel/parser@8.0.4':
-    resolution: {integrity: sha512-srpptsAkEbbNIC/q8nT7o+m6CQe8CJUTV/t7MYc9NnWlgYVtHOb7JH6SorxMhN0kuRJjVqXbKClG6xSbPtzz+g==}
-    engines: {node: ^22.18.0 || >=24.11.0}
     hasBin: true
 
   '@babel/plugin-bugfix-firefox-class-in-computed-class-key@7.29.7':
@@ -3004,10 +2987,6 @@ packages:
   '@babel/types@7.29.8':
     resolution: {integrity: sha512-Vj1jF3cPfxg7OAfoI7QnVKLoILlm2JF9pnVHrX8qx7AHMiYWT+NDAA7jChlNgRS4WTLc/fD1lXLmPixluj+3Gg==}
     engines: {node: '>=6.9.0'}
-
-  '@babel/types@8.0.4':
-    resolution: {integrity: sha512-eY+Yn3dCqTGmyiq2QRU66lA5FL8lqqqvecHt0fF3uHONIa7ToYsaCiWV8lOKqAs0Rb2SjixiKFROngnulPtt2g==}
-    engines: {node: ^22.18.0 || >=24.11.0}
 
   '@bufbuild/protobuf@2.14.0':
     resolution: {integrity: sha512-C3UGsiCwSprE2NKIIFA3hCDlpXTMCAXRZuEVp88L1GY36Y41+rYL5fryE+nOFhp4p4JPQvdV8PQ4DWgHgeTE+w==}
@@ -3695,8 +3674,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.521':
-    resolution: {integrity: sha512-A28AxL35ElpaZg1vk6tPf4/nJ/6KX+HGYVznyzaNYip0as9KTPfdqKxDI7A5mN4RXedxVOOugHN+nofxkUoEEQ==}
+  '@iconify/json@2.2.522':
+    resolution: {integrity: sha512-YJfmIfMUNaYcmBVig39XoHoX133cDE97Rc9SxNKbfI2fOmfxfuPsZd1L2wv+fczSeq/bTEI+68SxBcg1dSZa2g==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -3746,8 +3725,8 @@ packages:
   '@keyv/serialize@1.1.1':
     resolution: {integrity: sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==}
 
-  '@lucide/vue@1.34.0':
-    resolution: {integrity: sha512-eB48kx1oe9O6mJAg0gFWgv66y4rhYJYuhfWF8wIz/YBFPDDHWHI7+kRJpkvz/8kePY6ddbwxXIGfP8E54wlGhA==}
+  '@lucide/vue@1.37.0':
+    resolution: {integrity: sha512-outqiaDIgg8SUANr8q27cHB0V6vAOEB0CwEDe+fyVjSuCDAscVlplHH+cRld9nNNYQ5KJ6MBRmNMICpq42pXYw==}
     peerDependencies:
       vue: '>=3.0.1'
 
@@ -4370,16 +4349,19 @@ packages:
   '@sxzz/popperjs-es@2.11.8':
     resolution: {integrity: sha512-wOwESXvvED3S8xBmcPWHs2dUuzrE4XiZeFu7e1hROIJkm02a49N120pmOXxY33sBb6hArItm5W5tcg1cBtV+HQ==}
 
-  '@tanstack/table-core@8.21.3':
-    resolution: {integrity: sha512-ldZXEhOBb8Is7xLs01fR3YEc3DERiz5silj8tnGkFZytt1abEvl/GhUmCE0PMLaMPTa3Jk4HbKmRlHmu+gCftg==}
-    engines: {node: '>=12'}
+  '@tanstack/store@0.11.1':
+    resolution: {integrity: sha512-mzTOBhypOuDJAy/D8n2MfUZ1HFkXnmSETviRyhqEC8LUE7/IZQExOTxMANj3KjTofYTkFNpBY67qaVrT41YccA==}
+
+  '@tanstack/table-core@9.2.4':
+    resolution: {integrity: sha512-GwdDyGGr6UXAtubF14yAwcXvdaogqfsQgIk89Suebjxob/Rjq2xvfmXsjDF1rQmKmhHsJm9TOY7myxv3i6geJw==}
+    engines: {node: '>=20'}
 
   '@tanstack/virtual-core@3.17.8':
     resolution: {integrity: sha512-BfEvehNpOT75r5Ksc5xW6NZuXujTfb7nlSEyVu4XHG3gdxNg1KqXruWbDewXOUaUYIo4oRbSfkjIajz4MAT8tA==}
 
-  '@tanstack/vue-table@8.21.3':
-    resolution: {integrity: sha512-rusRyd77c5tDPloPskctMyPLFEQUeBzxdQ+2Eow4F7gDPlPOB1UnnhzfpdvqZ8ZyX2rRNGmqNnQWm87OI2OQPw==}
-    engines: {node: '>=12'}
+  '@tanstack/vue-table@9.2.4':
+    resolution: {integrity: sha512-GSD6ZkeQvADs6u9KUyhUuiD+qYgA+Lt6hTBDSEadCBIbC8q2SaoHzseLwgDKVUnRClTIMj9+NwCEF+Gp3P7ChQ==}
+    engines: {node: '>=20'}
     peerDependencies:
       vue: '>=3.2'
 
@@ -4441,9 +4423,6 @@ packages:
 
   '@types/js-cookie@3.0.6':
     resolution: {integrity: sha512-wkw9yd1kEXOPnvEeEV1Go1MmxtBJL0RR79aOTAApecWFVu7w0NNXNqhcWgvw2YgZDYadliXkl14pa3WXw5jlCQ==}
-
-  '@types/jsesc@2.5.1':
-    resolution: {integrity: sha512-9VN+6yxLOPLOav+7PwjZbxiID2bVaeq0ED4qSQmdQTdjnXJSaCVKTR58t15oqH1H5t8Ng2ZX1SabJVoN9Q34bw==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -5136,8 +5115,8 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
-  '@vxe-ui/core@4.4.20':
-    resolution: {integrity: sha512-PYsssySS4cK3M2nahIRGcIRjQvnsDA/AB9Ie1fu5zAFRaUGTpyHh62sSRi1qNSsqpDiABEYquOSrexZ/NG6akw==}
+  '@vxe-ui/core@4.4.21':
+    resolution: {integrity: sha512-xaKGhQxrSU3G7+cQbxMBSzNXiWliRDgtR5GmD/FD9f5tl8e9SuZLe2SfODjItp6oBvBkKI2TXBZiCx502WftyA==}
     peerDependencies:
       vue: ^3.2.0
 
@@ -5145,8 +5124,8 @@ packages:
     resolution: {integrity: sha512-5AXjrcMClTryPe9LgZrygpB1lj7s0S9E0+W+AHaVKAVyHanafK86iPSvG5xHVSp/jC+VH1UXu0TAEmY279xH7A==}
     engines: {node: '>=14.6'}
 
-  '@zumer/snapdom@2.24.10':
-    resolution: {integrity: sha512-yK+5HvcP96aZCG8dcOuJDsOD1TACDeSTI0wlsmQkMeeGaM/JVHdBQZPS4h0Uae6bY/zx+WQCJtOKnrbB6D7NgQ==}
+  '@zumer/snapdom@2.24.12':
+    resolution: {integrity: sha512-JfGZnVEkgg5XfVMtc5jGx+u3TxJz5cNkEB9PKK/aC8IJWwKES/m4KiWWDttuOF73UAMN+9Rfhk9hQPBIblxG9A==}
 
   abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
@@ -5836,8 +5815,8 @@ packages:
   es-toolkit@1.50.0:
     resolution: {integrity: sha512-OyZKhUVvEep9ITEiwHn8GKnMRQIVqoSIX7WnRbkWgJkllCujilqP2rD0u979tkl8wqyc8ICwlc1UBVv/Sl1G6w==}
 
-  es-toolkit@1.51.0:
-    resolution: {integrity: sha512-zC2lQGkM7QX+Gm6iM3+WIdZJzthsEd14LvRNJneSO2hzyz/zNBENR8+YXWo1cKxgPBtV6ksPYHELbcwBRzmdCw==}
+  es-toolkit@1.52.0:
+    resolution: {integrity: sha512-XTNEJQh1tY1ZJVcf6ayP/2n4ZPyaHlW2FWs7xvw5ddPuhUVjLD3olQVQS7kf58JbAB48iL0uL/jerTrjtV3lDA==}
 
   esbuild@0.24.2:
     resolution: {integrity: sha512-+9egpBW8I3CD5XPe0n6BfT5fxLzxrlDzqydF3aviG+9ni1lDC/OvMHcxqEFV0+LANZG5R1bFMWfUrjVsdwxJvA==}
@@ -6350,8 +6329,8 @@ packages:
   hookified@2.2.0:
     resolution: {integrity: sha512-p/LgFzRN5FeoD3DLS6bkUapeye6E4SI6yJs6KetENd18S+FBthqYq2amJUWpt5z0EQwwHemidjY5OqJGEKm5uA==}
 
-  hotkeys-js@4.0.5:
-    resolution: {integrity: sha512-Os0VaEH8gvOSzwZnEDU2yn7G868OfFiLydUHIe2uln7Fi9Ii1xhOCoPGu27RkZYWYqM93gC4xoyONCZE9iiwLw==}
+  hotkeys-js@4.0.7:
+    resolution: {integrity: sha512-/NET0IaevsVdHmr5fCf3gvAQYxfLPxW5gBIforvwDpHvHsf7gyDo/BJyrU75f3gArXHDzS5QwAxeByIoB6IapA==}
 
   html-encoding-sniffer@3.0.0:
     resolution: {integrity: sha512-oWv4T4yJ52iKrufjnyZPkrN0CH3QnrUqdB6In1g5Fe1mia8GmF36gnfNySxoZtxD5+NmYw1EElVXiBk93UeskA==}
@@ -6699,8 +6678,8 @@ packages:
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  lint-staged@17.3.0:
-    resolution: {integrity: sha512-woZS3vNe3UKqBaLPvbLOtKRY4tLANpWQhom12MGWqC8Mh1lCOO+WgSwmX2amjJAqTY9BkXYW87fCUH5H9Ph6xw==}
+  lint-staged@17.4.1:
+    resolution: {integrity: sha512-FmJeudcalbSfg1du+JCfvi5vS6Qt08KgbfLWiHinbef+2JJwUZwAWVoaO1AcJVUTWPfk0t30PMQNwPAeCzYQ+Q==}
     engines: {node: '>=22.22.1'}
     hasBin: true
 
@@ -6993,8 +6972,8 @@ packages:
   mutation-observer@1.0.3:
     resolution: {integrity: sha512-M/O/4rF2h776hV7qGMZUH3utZLO/jK7p8rnNgGkjKUw8zCGjRQPxB8z6+5l8+VjRUQ3dNYu4vjqXYLr+U8ZVNA==}
 
-  naive-ui@2.45.2:
-    resolution: {integrity: sha512-KshetbFOX/uZ/Pe+60hJoUAo47x5QO1JpZaUVPQCQkNhFfJ7hKsX55A8oMFQHccEpLuQUMPkJ41cX94R4nWUjg==}
+  naive-ui@2.45.3:
+    resolution: {integrity: sha512-D83gJ+6zUdkQ5DuUbmlfyaM1t8pV5WMPa6KmL9mByqQuiL12qBdA0n/iEIth4dQw1x/duNGpOS2anpt5FKO1kw==}
     engines: {node: '>=20'}
     peerDependencies:
       vue: ^3.0.0
@@ -7688,8 +7667,8 @@ packages:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
 
-  simple-git-hooks@2.13.1:
-    resolution: {integrity: sha512-WszCLXwT4h2k1ufIXAgsbiTOazqqevFCIncOuUBZJ91DdvWcC5+OFkluWRQPrcuSYd8fjq+o2y1QfWqYMoAToQ==}
+  simple-git-hooks@2.14.0:
+    resolution: {integrity: sha512-kkTORPAuxQz2g1QUuN0J8yGWT28tjGBfPOdJ4xT7Vbeu30veKUZQIoID2qGgCDAakaQn59UeZJJ4cFGB8PVP2A==}
     hasBin: true
 
   simple-statistics@7.10.2:
@@ -7981,8 +7960,8 @@ packages:
     peerDependencies:
       vue: ^3.0.0
 
-  tdesign-vue-next@1.20.6:
-    resolution: {integrity: sha512-k9pKaWyyCPv1RGO8YEqhmOoAkS/WZ+CbS0CLWGMtuIltS+363dCZ4ggKhmu/y7Zvnv6Wdzoy8R5+ZIsuwsdvkw==}
+  tdesign-vue-next@1.20.7:
+    resolution: {integrity: sha512-7/ulTYKbkPZf9QnwHFf0TiQXrCZDQwj2Kwn734AsJ4nHnuCMCjLy+UwN7/oMLZOjfKIg1+e9VPwg3yzXBoouhg==}
     engines: {node: '>= 18'}
     peerDependencies:
       vue: '>=3.1.0'
@@ -8485,8 +8464,8 @@ packages:
     peerDependencies:
       vue: ^3.2.0
 
-  vue-router@5.2.0:
-    resolution: {integrity: sha512-QAC5i0LEb1GLG0LXDQmHu8L7FX12j0KwU/JTKmLQUJMrn04gQdKP6Du+p0QwpHb3iy71vBlqnHQ8WAfOSAWhqw==}
+  vue-router@5.3.0:
+    resolution: {integrity: sha512-a2PBXX9yfkS58JzSJALUffgDa09lEzKmCcEnLaepoIr88L+9hEnsgEQkcadJGID+vtHa0gFpVo064zmylA9fcg==}
     peerDependencies:
       '@pinia/colada': '>=0.21.2'
       '@vue/compiler-sfc': ^3.5.34 || ^4.0.0
@@ -8546,8 +8525,8 @@ packages:
     peerDependencies:
       vue: ^3.0.11
 
-  vxe-pc-ui@4.17.19:
-    resolution: {integrity: sha512-FjVcn+n/ZJ19w+ZUra1pFn8ZdwnPgXDuwvkVvl11A3reLMFxC1tpyVQ9a+azrKAFO7zt82MmPqvwz1Ni0/pJqg==}
+  vxe-pc-ui@4.17.21:
+    resolution: {integrity: sha512-JHaiHV/McKRWYi1IBkYmtkGJ8L3Yk+r1Z/pqdcsZEu8+xULjfZ4P//dxbc0JdV+rocdfwIaPcSrOuBCs24RELA==}
 
   vxe-table@4.21.2:
     resolution: {integrity: sha512-QhaysMEMehHp9w2D7/AETjIm0hUwdvhpzNTurCJ2nLF3RwQH22Ka4ChXiUGfk8iASfYUiBbocU1tq50/HiTB/g==}
@@ -8599,8 +8578,8 @@ packages:
     resolution: {integrity: sha512-Hl0ZOAs672vg+06kfujwRhoS6/jehvULrlFkuF2dRu6pHgA8U06h3xqNIqNNU1LTXPcedxByAR4GS6pwQK0mgA==}
     engines: {node: '>=20'}
 
-  xe-utils@4.0.12:
-    resolution: {integrity: sha512-4y2OXEVlXHoBMSyzdAcXDM9oyb8EL9U4LIEq642JO0liULVpC9U5aEiVv2xbS9hhoebYCMdZZYASqh/7H5Wd0Q==}
+  xe-utils@4.0.13:
+    resolution: {integrity: sha512-hIxQ3LQv/WF0DyeNsZ7VclX5+n5CKoUJ3DG76GFtuAnVQ/NaSv3MKmyZ6MD73wfSdzZBcziV8wcas8GRNSYMwg==}
 
   xml-name-validator@5.0.0:
     resolution: {integrity: sha512-EvGK8EJ3DhaHfbRlETOWAS5pO9MZITeauHKJyb8wyajUfQUenkIg2MvLDTZ4T/TgIcm3HU0TFBgWWboAZ30UHg==}
@@ -8626,8 +8605,8 @@ packages:
     resolution: {integrity: sha512-dSvYKdvLsAHCDqPOhIwk/q5CvuWtTB3Dgpoe0uVEFjTzIOAmsQpprX25InCvrvJsirEbu1OHyy67n/kAj1Sw/w==}
     engines: {node: '>=18'}
 
-  zod@4.4.3:
-    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
+  zod@4.5.2:
+    resolution: {integrity: sha512-XkYXCol10+ba/6F/cueWV+TezUeOqXW0hdeJt5CdXjTYeAgAQg5N03RQdJ80mhfFE72+pblvYMW4wy2Qp4Qbrg==}
 
   zrender@6.1.0:
     resolution: {integrity: sha512-oEGMDB6pOP2S6OwRR4PdVv610zrjnA3Bh+JnSG12fYJlBKjtNAoEb5fSUoCOOINlH96I2fU38/A2UpRKs67xYQ==}
@@ -8800,15 +8779,6 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       jsesc: 3.1.0
 
-  '@babel/generator@8.0.0':
-    dependencies:
-      '@babel/parser': 8.0.4
-      '@babel/types': 8.0.4
-      '@jridgewell/gen-mapping': 0.3.13
-      '@jridgewell/trace-mapping': 0.3.31
-      '@types/jsesc': 2.5.1
-      jsesc: 3.1.0
-
   '@babel/helper-annotate-as-pure@7.29.7':
     dependencies:
       '@babel/types': 7.29.8
@@ -8910,11 +8880,7 @@ snapshots:
 
   '@babel/helper-string-parser@7.29.7': {}
 
-  '@babel/helper-string-parser@8.0.0': {}
-
   '@babel/helper-validator-identifier@7.29.7': {}
-
-  '@babel/helper-validator-identifier@8.0.4': {}
 
   '@babel/helper-validator-option@7.29.7': {}
 
@@ -8934,10 +8900,6 @@ snapshots:
   '@babel/parser@7.29.8':
     dependencies:
       '@babel/types': 7.29.8
-
-  '@babel/parser@8.0.4':
-    dependencies:
-      '@babel/types': 8.0.4
 
   '@babel/plugin-bugfix-firefox-class-in-computed-class-key@7.29.7(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)':
     dependencies:
@@ -9484,11 +9446,6 @@ snapshots:
       '@babel/helper-string-parser': 7.29.7
       '@babel/helper-validator-identifier': 7.29.7
 
-  '@babel/types@8.0.4':
-    dependencies:
-      '@babel/helper-string-parser': 8.0.0
-      '@babel/helper-validator-identifier': 8.0.4
-
   '@bufbuild/protobuf@2.14.0': {}
 
   '@cacheable/memory@2.2.0':
@@ -9947,7 +9904,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@iconify/json@2.2.521':
+  '@iconify/json@2.2.522':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 2.0.3
@@ -10007,7 +9964,7 @@ snapshots:
 
   '@keyv/serialize@1.1.1': {}
 
-  '@lucide/vue@1.34.0(vue@3.5.42(typescript@6.0.3))':
+  '@lucide/vue@1.37.0(vue@3.5.42(typescript@6.0.3))':
     dependencies:
       vue: 3.5.42(typescript@6.0.3)
 
@@ -10389,13 +10346,18 @@ snapshots:
 
   '@sxzz/popperjs-es@2.11.8': {}
 
-  '@tanstack/table-core@8.21.3': {}
+  '@tanstack/store@0.11.1': {}
+
+  '@tanstack/table-core@9.2.4':
+    dependencies:
+      '@tanstack/store': 0.11.1
 
   '@tanstack/virtual-core@3.17.8': {}
 
-  '@tanstack/vue-table@8.21.3(vue@3.5.42(typescript@6.0.3))':
+  '@tanstack/vue-table@9.2.4(vue@3.5.42(typescript@6.0.3))':
     dependencies:
-      '@tanstack/table-core': 8.21.3
+      '@tanstack/store': 0.11.1
+      '@tanstack/table-core': 9.2.4
       vue: 3.5.42(typescript@6.0.3)
 
   '@tanstack/vue-virtual@3.13.36(vue@3.5.42(typescript@6.0.3))':
@@ -10466,8 +10428,6 @@ snapshots:
       '@types/unist': 3.0.3
 
   '@types/js-cookie@3.0.6': {}
-
-  '@types/jsesc@2.5.1': {}
 
   '@types/json-schema@7.0.15': {}
 
@@ -10908,7 +10868,7 @@ snapshots:
   '@v-c/slick@1.0.2(vue@3.5.42(typescript@6.0.3))':
     dependencies:
       '@v-c/util': 1.1.0(vue@3.5.42(typescript@6.0.3))
-      es-toolkit: 1.51.0
+      es-toolkit: 1.52.0
       vue: 3.5.42(typescript@6.0.3)
 
   '@v-c/slider@1.1.0(vue@3.5.42(typescript@6.0.3))':
@@ -10997,11 +10957,11 @@ snapshots:
       '@v-c/util': 1.1.0(vue@3.5.42(typescript@6.0.3))
       vue: 3.5.42(typescript@6.0.3)
 
-  '@vee-validate/zod@4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.4.3)':
+  '@vee-validate/zod@4.15.1(vue@3.5.42(typescript@6.0.3))(zod@4.5.2)':
     dependencies:
       type-fest: 4.41.0
       vee-validate: 4.15.1(vue@3.5.42(typescript@6.0.3))
-      zod: 4.4.3
+      zod: 4.5.2
     transitivePeerDependencies:
       - vue
 
@@ -11416,15 +11376,15 @@ snapshots:
     dependencies:
       vue: 3.5.42(typescript@6.0.3)
 
-  '@vxe-ui/core@4.4.20(vue@3.5.42(typescript@6.0.3))':
+  '@vxe-ui/core@4.4.21(vue@3.5.42(typescript@6.0.3))':
     dependencies:
       dom-zindex: 1.0.7
       vue: 3.5.42(typescript@6.0.3)
-      xe-utils: 4.0.12
+      xe-utils: 4.0.13
 
   '@xmldom/xmldom@0.9.12': {}
 
-  '@zumer/snapdom@2.24.10': {}
+  '@zumer/snapdom@2.24.12': {}
 
   abort-controller@3.0.0:
     dependencies:
@@ -12147,7 +12107,7 @@ snapshots:
 
   es-toolkit@1.50.0: {}
 
-  es-toolkit@1.51.0: {}
+  es-toolkit@1.52.0: {}
 
   esbuild@0.24.2:
     optionalDependencies:
@@ -12794,7 +12754,7 @@ snapshots:
 
   hookified@2.2.0: {}
 
-  hotkeys-js@4.0.5: {}
+  hotkeys-js@4.0.7: {}
 
   html-encoding-sniffer@3.0.0:
     dependencies:
@@ -13083,7 +13043,7 @@ snapshots:
 
   lines-and-columns@1.2.4: {}
 
-  lint-staged@17.3.0:
+  lint-staged@17.4.1:
     dependencies:
       picomatch: 4.0.7
       string-argv: 0.3.2
@@ -13560,7 +13520,7 @@ snapshots:
 
   mutation-observer@1.0.3: {}
 
-  naive-ui@2.45.2(vue@3.5.42(typescript@6.0.3)):
+  naive-ui@2.45.3(vue@3.5.42(typescript@6.0.3)):
     dependencies:
       '@css-render/plugin-bem': 0.15.14(css-render@0.15.14)
       '@css-render/vue3-ssr': 0.15.14(vue@3.5.42(typescript@6.0.3))
@@ -14276,7 +14236,7 @@ snapshots:
 
   signal-exit@4.1.0: {}
 
-  simple-git-hooks@2.13.1: {}
+  simple-git-hooks@2.14.0: {}
 
   simple-statistics@7.10.2: {}
 
@@ -14614,7 +14574,7 @@ snapshots:
       '@babel/runtime': 7.29.7
       vue: 3.5.42(typescript@6.0.3)
 
-  tdesign-vue-next@1.20.6(vue@3.5.42(typescript@6.0.3)):
+  tdesign-vue-next@1.20.7(vue@3.5.42(typescript@6.0.3)):
     dependencies:
       '@babel/runtime': 7.29.7
       '@popperjs/core': 2.11.8
@@ -15148,14 +15108,13 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
-  vue-router@5.2.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3)):
+  vue-router@5.3.0(@vue/compiler-sfc@3.5.42)(esbuild@0.28.2)(pinia@4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3)))(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3)):
     dependencies:
-      '@babel/generator': 8.0.0
       '@vue-macros/common': 3.1.4(vue@3.5.42(typescript@6.0.3))
       '@vue/devtools-api': 8.2.1
       ast-walker-scope: 0.9.0
       chokidar: 5.0.0
-      json5: 2.2.3
+      confbox: 0.2.4
       local-pkg: 1.2.1
       magic-string: 0.30.21
       mlly: 1.8.2
@@ -15168,7 +15127,6 @@ snapshots:
       unplugin: 3.3.0(esbuild@0.28.2)(rolldown@1.2.6)(vite@8.2.2(@types/node@26.4.0)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.103.1)(sass@1.103.1)(terser@5.51.1)(tsx@4.23.12)(yaml@2.9.0))
       unplugin-utils: 0.3.2
       vue: 3.5.42(typescript@6.0.3)
-      yaml: 2.9.0
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.42
       pinia: 4.0.3(@vue/devtools-api@8.2.1)(typescript@6.0.3)(vue@3.5.42(typescript@6.0.3))
@@ -15222,9 +15180,9 @@ snapshots:
       vooks: 0.2.12(vue@3.5.42(typescript@6.0.3))
       vue: 3.5.42(typescript@6.0.3)
 
-  vxe-pc-ui@4.17.19(vue@3.5.42(typescript@6.0.3)):
+  vxe-pc-ui@4.17.21(vue@3.5.42(typescript@6.0.3)):
     dependencies:
-      '@vxe-ui/core': 4.4.20(vue@3.5.42(typescript@6.0.3))
+      '@vxe-ui/core': 4.4.21(vue@3.5.42(typescript@6.0.3))
     transitivePeerDependencies:
       - vue
 
@@ -15275,7 +15233,7 @@ snapshots:
       is-wsl: 3.1.1
       powershell-utils: 0.1.0
 
-  xe-utils@4.0.12: {}
+  xe-utils@4.0.13: {}
 
   xml-name-validator@5.0.0: {}
 
@@ -15296,7 +15254,7 @@ snapshots:
       normalize-path: 3.0.0
       readable-stream: 4.7.0
 
-  zod@4.4.3: {}
+  zod@4.5.2: {}
 
   zrender@6.1.0:
     dependencies:

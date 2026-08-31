@@ -353,7 +353,6 @@ function onBatchDel() {
       <div class="mx--4 my-3 border-t border-t-dashed" />
       <FaTable
         v-loading="loading"
-        table-root-class="rounded-lg overflow-hidden"
         :class="{ 'min-h-0 flex-1': tableAutoHeight }"
         row-key="id"
         selectable
