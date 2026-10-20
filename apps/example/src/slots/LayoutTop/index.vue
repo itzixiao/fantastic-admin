@@ -6,7 +6,7 @@ const isShow = ref(false)
 
 onMounted(() => {
   dayjs.extend(isBetween)
-  if (dayjs().isBetween('2026-10-01', '2026-10-17')) {
+  if (dayjs().isBetween('2026-10-20', '2026-11-11')) {
     isShow.value = true
   }
 })
@@ -18,7 +18,7 @@ function handleOpen() {
 
 <template>
   <div v-if="isShow" class="text-sm text-gray-100 font-medium flex-center gap-3 h-12 relative from-slate-800 to-gray-900 bg-gradient-to-r">
-    <span class="text-lg font-bold">✨ 六周年庆，全年最低价 ✨</span>
+    <span class="text-lg font-bold">✨ 双十一大促，全年最低价 ✨</span>
     <button class="text-xs text-white font-semibold px-4 py-1 rounded-full bg-blue-600 transition-colors duration-200 hover:bg-blue-500" @click="handleOpen">
       查看详情 →
     </button>
