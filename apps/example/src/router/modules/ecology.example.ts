@@ -25,13 +25,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        path: 'one-step-admin',
+        path: 'one-step-console',
         redirect: '',
-        name: 'officialOneStepAdmin',
+        name: 'officialOneStepConsole',
         meta: {
-          title: 'One-step-admin 干啥都快人一步的中后台框架',
-          icon: 'https://one-step-admin.hurui.me/logo.png',
-          link: 'https://one-step-admin.hurui.me',
+          title: 'One-step Console 像导播一样编排你的工作现场',
+          icon: 'https://one-step-console.hurui.me/logo.png',
+          link: 'https://one-step-console.hurui.me',
         },
       },
       {
