@@ -52,4 +52,4 @@ If you find Fantastic-admin useful, or you are already using it, please consider
 
 - [`Fantastic-startkit`](https://hooray.github.io/fantastic-startkit/) - A simple and easy-to-use Vue 3 project starter kit
 - [`Fantastic-mobile`](https://fantastic-mobile.hurui.me/) - Let your H5 project have a solid engineering base
-- [`One-step-admin`](https://one-step-admin.hurui.me) - A Vue admin framework built to help you move faster than the rest
+- [`One-step Console`](https://one-step-console.hurui.me) - A Vue admin framework built to help you move faster than the rest

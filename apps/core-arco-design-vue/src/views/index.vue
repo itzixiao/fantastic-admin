@@ -35,10 +35,10 @@ const products = ref([
   {
     name: 'One-step Console',
     tagline: '像导播一样编排你的工作现场',
-    logo: 'https://one-step-admin.hurui.me/logo.png',
-    url: 'https://one-step-admin.hurui.me',
+    logo: 'https://one-step-console.hurui.me/logo.png',
+    url: 'https://one-step-console.hurui.me',
     images: [
-      'https://one-step-admin.hurui.me/hero_preview.png',
+      'https://one-step-console.hurui.me/hero_preview.png',
     ],
   },
 ])
