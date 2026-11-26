@@ -131,7 +131,9 @@ export function createHotkeys<
     if (missingIds.length || duplicateIds.length) {
       console.warn('[hotkeys] registry consistency check failed', {
         missingIds,
-        duplicateIds: [...new Set(duplicateIds)],
+        duplicateIds: [
+          ...new Set(duplicateIds),
+        ],
       })
     }
   }

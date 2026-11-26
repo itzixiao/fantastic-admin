@@ -132,7 +132,9 @@ function createColumns({
             size: 'small',
             onClick: () => sendMail(row),
           },
-          { default: () => 'Send Email' },
+          {
+            default: () => 'Send Email',
+          },
         )
       },
     },

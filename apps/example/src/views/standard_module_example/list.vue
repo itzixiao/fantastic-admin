@@ -56,11 +56,13 @@ const dataList = ref<StandardModuleItem[]>([])
 
 const tableColumns = computed<TableColumn<StandardModuleItem>[]>(() => [
   ...(batch.value.enable
-    ? [{
-      type: 'selection',
-      fixed: 'left',
-      width: 48,
-    } satisfies TableColumn<StandardModuleItem>]
+    ? [
+{
+  type: 'selection',
+  fixed: 'left',
+  width: 48,
+} satisfies TableColumn<StandardModuleItem>,
+      ]
     : []),
   {
     accessorKey: 'title',

@@ -15,7 +15,9 @@ const model = ref({
 
 const validationSchema = {
   email(value: string) {
-    return /^\S[^\s@]*@\S[^\s.]*\.\S+$/.test(value) ? true : '请输入有效邮箱'
+    return /^\S[^\s@]*@\S[^\s.]*\.\S+$/.test(value)
+      ? true
+      : '请输入有效邮箱'
   },
   agreement(value: boolean) {
     return value ? true : '请先同意服务协议'

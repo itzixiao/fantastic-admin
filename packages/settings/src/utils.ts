@@ -104,7 +104,9 @@ export function setSettingsLegacy(settingsLegacy: SettingsLegacyOptions) {
       account: {
         auth: settingsLegacy.app?.enablePermission,
       },
-      routeBaseOn: settingsLegacy.app?.routeBaseOn === 'filesystem' ? 'frontend' : settingsLegacy.app?.routeBaseOn,
+      routeBaseOn: settingsLegacy.app?.routeBaseOn === 'filesystem'
+        ? 'frontend'
+        : settingsLegacy.app?.routeBaseOn,
       dynamicTitle: settingsLegacy.app?.enableDynamicTitle,
       rip: settingsLegacy.app?.enableMournMode,
       mobile: settingsLegacy.layout?.enableMobileAdaptation,

@@ -134,7 +134,17 @@ export const builtinGlobalHotkeyBindings: HotkeyBinding<BuiltinHotkeyId, HotkeyC
   },
   {
     id: BUILTIN_HOTKEY_ID.tabbarGotoVisibleIndex,
-    keys: ['alt+1', 'alt+2', 'alt+3', 'alt+4', 'alt+5', 'alt+6', 'alt+7', 'alt+8', 'alt+9'],
+    keys: [
+      'alt+1',
+      'alt+2',
+      'alt+3',
+      'alt+4',
+      'alt+5',
+      'alt+6',
+      'alt+7',
+      'alt+8',
+      'alt+9',
+    ],
     enabled: ctx => ctx.settings.topbar.tabbar && ctx.settings.tabbar.hotkeys,
     help: {
       group: 'tabbar',

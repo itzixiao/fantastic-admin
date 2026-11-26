@@ -38,7 +38,9 @@ function checkCanScroll() {
 useResizeObserver(computed(() => {
   const el = viewportRef.value?.$el ?? viewportRef.value
   // 同时观察 viewport 和其内容子元素，以便内容尺寸变化时也能触发
-  return el ? [el, el.firstElementChild].filter(Boolean) : []
+  return el
+    ? [el, el.firstElementChild].filter(Boolean)
+    : []
 }), checkCanScroll)
 
 defineExpose({

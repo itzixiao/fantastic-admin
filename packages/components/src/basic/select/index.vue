@@ -80,7 +80,9 @@ const selectedOption = computed({
 
       if (Object.hasOwn(firstOption, 'options')) {
         const group = firstOption as GroupOption
-        return group.options && group.options.length > 0 ? group.options[0] : null
+        return group.options && group.options.length > 0
+          ? group.options[0]
+          : null
       }
       else {
         return firstOption as Option

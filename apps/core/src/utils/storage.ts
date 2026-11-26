@@ -37,7 +37,9 @@ function createStorageProxy(storage: Storage) {
             }
           }
           const key = target.key(realIndex)
-          return key ? key.slice(STORAGE_PREFIX.length) : null
+          return key
+            ? key.slice(STORAGE_PREFIX.length)
+            : null
         }
       }
       if (prop === 'clear') {

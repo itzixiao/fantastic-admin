@@ -169,12 +169,16 @@ function resolveSize(size?: string | number) {
     return '96px'
   }
 
-  return typeof size === 'number' ? `${size}px` : size
+  return typeof size === 'number'
+    ? `${size}px`
+    : size
 }
 
 function normalizeSlotNodes(nodes: VNodeChild): VNode[] {
   const result: VNode[] = []
-  const source = Array.isArray(nodes) ? nodes : [nodes]
+  const source = Array.isArray(nodes)
+    ? nodes
+    : [nodes]
 
   source.forEach((node) => {
     if (Array.isArray(node)) {

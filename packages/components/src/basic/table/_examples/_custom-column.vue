@@ -43,9 +43,27 @@ const columns: TableColumn<Metric>[] = [
 ]
 
 const data: Metric[] = [
-  { id: 'm-001', name: '访问量', today: '18,420', yesterday: '16,280', trend: '+13.1%' },
-  { id: 'm-002', name: '转化率', today: '8.6%', yesterday: '9.1%', trend: '-0.5%' },
-  { id: 'm-003', name: '新增客户', today: '326', yesterday: '304', trend: '+7.2%' },
+  {
+    id: 'm-001',
+    name: '访问量',
+    today: '18,420',
+    yesterday: '16,280',
+    trend: '+13.1%',
+  },
+  {
+    id: 'm-002',
+    name: '转化率',
+    today: '8.6%',
+    yesterday: '9.1%',
+    trend: '-0.5%',
+  },
+  {
+    id: 'm-003',
+    name: '新增客户',
+    today: '326',
+    yesterday: '304',
+    trend: '+7.2%',
+  },
 ]
 </script>
 

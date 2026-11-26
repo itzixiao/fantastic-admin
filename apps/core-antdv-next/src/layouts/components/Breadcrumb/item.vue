@@ -16,7 +16,9 @@ const router = useRouter()
 
 function onClick() {
   if (props.to) {
-    props.replace ? router.replace(props.to) : router.push(props.to)
+    props.replace
+      ? router.replace(props.to)
+      : router.push(props.to)
   }
 }
 </script>

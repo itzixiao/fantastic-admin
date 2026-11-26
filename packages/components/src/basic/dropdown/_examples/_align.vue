@@ -28,8 +28,16 @@ function handleClick(text: string) {
 
 const items = [
   [
-    { label: '个人设置', icon: 'i-lucide:user', handle: () => handleClick('个人设置') },
-    { label: '账号安全', icon: 'i-lucide:shield', handle: () => handleClick('账号安全') },
+    {
+      label: '个人设置',
+      icon: 'i-lucide:user',
+      handle: () => handleClick('个人设置'),
+    },
+    {
+      label: '账号安全',
+      icon: 'i-lucide:shield',
+      handle: () => handleClick('账号安全'),
+    },
   ],
 ] satisfies DropdownItems
 </script>

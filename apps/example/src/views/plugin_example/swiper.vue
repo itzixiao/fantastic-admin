@@ -13,7 +13,12 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 
-const modules = [Navigation, Pagination, Scrollbar, A11y]
+const modules = [
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+]
 
 function open(url: string) {
   window.open(url, '_blank')

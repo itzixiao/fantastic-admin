@@ -104,13 +104,17 @@ function onPaste(e: ClipboardEvent) {
   if (e.defaultPrevented || !canHandlePaste.value) {
     return
   }
-  const filesFromItems = [...(e.clipboardData?.items ?? [])]
+  const filesFromItems = [
+    ...(e.clipboardData?.items ?? []),
+  ]
     .filter(item => item.kind === 'file')
     .map(item => item.getAsFile())
     .filter((file): file is File => file !== null)
   const files = filesFromItems.length > 0
     ? filesFromItems
-    : [...(e.clipboardData?.files ?? [])]
+    : [
+        ...(e.clipboardData?.files ?? []),
+      ]
 
   if (files.length > 0 && handleFiles(files)) {
     e.preventDefault()
@@ -146,7 +150,9 @@ function handleFiles(files: FileList | File[] | null) {
     return false
   }
   const selectedFiles = [...files].filter(file => file instanceof File)
-  const remain = props.max > 0 ? props.max - fileList.value.length : selectedFiles.length
+  const remain = props.max > 0
+    ? props.max - fileList.value.length
+    : selectedFiles.length
   if (remain <= 0) {
     return false
   }

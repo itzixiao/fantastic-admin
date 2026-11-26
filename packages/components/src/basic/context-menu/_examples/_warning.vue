@@ -27,11 +27,21 @@ function handleClick(text: string) {
 
 const items = [
   [
-    { label: '查看详情', handle: () => handleClick('查看详情') },
-    { label: '复制副本', handle: () => handleClick('复制副本') },
+    {
+      label: '查看详情',
+      handle: () => handleClick('查看详情'),
+    },
+    {
+      label: '复制副本',
+      handle: () => handleClick('复制副本'),
+    },
   ],
   [
-    { label: '删除', variant: 'destructive', handle: () => handleClick('删除') },
+    {
+      label: '删除',
+      variant: 'destructive',
+      handle: () => handleClick('删除'),
+    },
   ],
 ] satisfies ContextMenuItems
 </script>

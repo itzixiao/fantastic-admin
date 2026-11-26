@@ -56,7 +56,9 @@ const helpGroups = computed(() => {
     const meta = helpGroupMeta[help.group as keyof typeof helpGroupMeta]
     const group = groups.get(help.group) ?? {
       id: help.group,
-      title: help.groupTitleKey ? itemTitleMap[help.groupTitleKey] ?? help.groupTitleKey : meta?.title ?? help.group,
+      title: help.groupTitleKey
+        ? itemTitleMap[help.groupTitleKey] ?? help.groupTitleKey
+        : meta?.title ?? help.group,
       order: meta?.order ?? 100,
       items: [],
     }

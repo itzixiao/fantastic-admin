@@ -16,11 +16,38 @@ const Option = createReusableTemplate<{
 
 const localeEnabled = ref(false)
 const locale = ref('zh-ZH')
-const locales = ref(['de-DE', 'de-CH', 'en-US', 'en-IN', 'nl-NL', 'sv-SE', 'fr-FR', 'es-ES', 'pt-PT', 'pt-BR', 'zh-ZH', 'ja-JP', 'ar-SA', 'fa-IR', 'bg-BG'])
+const locales = ref([
+  'de-DE',
+  'de-CH',
+  'en-US',
+  'en-IN',
+  'nl-NL',
+  'sv-SE',
+  'fr-FR',
+  'es-ES',
+  'pt-PT',
+  'pt-BR',
+  'zh-ZH',
+  'ja-JP',
+  'ar-SA',
+  'fa-IR',
+  'bg-BG',
+])
 const localeOptions = computed(() => locales.value.map(item => ({ label: item, value: item })))
 
 const currency = ref('CNY')
-const currencies = ref(['EUR', 'USD', 'GBP', 'BRL', 'INR', 'CNY', 'JPY', 'SAR', 'IRR', 'BGN'])
+const currencies = ref([
+  'EUR',
+  'USD',
+  'GBP',
+  'BRL',
+  'INR',
+  'CNY',
+  'JPY',
+  'SAR',
+  'IRR',
+  'BGN',
+])
 const currencyOptions = computed(() => currencies.value.map(item => ({ label: item, value: item })))
 
 const currencyDisplay = ref('symbol')
@@ -69,7 +96,10 @@ function range(from: number, to: number) {
 }
 const precision = ref(2)
 const precisionOptions = computed(() => range(1, 16))
-const precisionSelectOptions = computed(() => precisionOptions.value.map(item => ({ label: String(item), value: item })))
+const precisionSelectOptions = computed(() => precisionOptions.value.map(item => ({
+  label: String(item),
+  value: item,
+})))
 
 const valueScalingEnabled = ref(false)
 const valueScaling = ref('precision')

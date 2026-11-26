@@ -27,12 +27,28 @@ function handleClick(text: string) {
 
 const items = [
   [
-    { label: '打开', icon: 'i-lucide:folder-open', handle: () => handleClick('打开') },
-    { label: '重命名', icon: 'i-lucide:pencil', handle: () => handleClick('重命名') },
-    { label: '复制链接', icon: 'i-lucide:link', handle: () => handleClick('复制链接') },
+    {
+      label: '打开',
+      icon: 'i-lucide:folder-open',
+      handle: () => handleClick('打开'),
+    },
+    {
+      label: '重命名',
+      icon: 'i-lucide:pencil',
+      handle: () => handleClick('重命名'),
+    },
+    {
+      label: '复制链接',
+      icon: 'i-lucide:link',
+      handle: () => handleClick('复制链接'),
+    },
   ],
   [
-    { label: '下载', icon: 'i-lucide:download', handle: () => handleClick('下载') },
+    {
+      label: '下载',
+      icon: 'i-lucide:download',
+      handle: () => handleClick('下载'),
+    },
   ],
 ] satisfies ContextMenuItems
 </script>

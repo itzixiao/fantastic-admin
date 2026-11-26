@@ -41,9 +41,30 @@ const columns: TableColumn<Product>[] = [
 ]
 
 const data: Product[] = [
-  { id: 'sku-001', name: '协作空间专业版', category: '软件', price: 1280, stock: 42, status: 'available' },
-  { id: 'sku-002', name: '团队数据大屏', category: '模板', price: 680, stock: 8, status: 'warning' },
-  { id: 'sku-003', name: '年度支持服务', category: '服务', price: 3600, stock: 0, status: 'sold-out' },
+  {
+    id: 'sku-001',
+    name: '协作空间专业版',
+    category: '软件',
+    price: 1280,
+    stock: 42,
+    status: 'available',
+  },
+  {
+    id: 'sku-002',
+    name: '团队数据大屏',
+    category: '模板',
+    price: 680,
+    stock: 8,
+    status: 'warning',
+  },
+  {
+    id: 'sku-003',
+    name: '年度支持服务',
+    category: '服务',
+    price: 3600,
+    stock: 0,
+    status: 'sold-out',
+  },
 ]
 
 const statusMap: Record<Product['status'], { label: string, class: string }> = {

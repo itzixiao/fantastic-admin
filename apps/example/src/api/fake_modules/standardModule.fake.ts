@@ -17,7 +17,9 @@ export default defineFakeRoute([
     response: ({ query }) => {
       const { title, from, limit } = query
       const list = standardModuleList.filter((item) => {
-        return title ? item.title.includes(title) : true
+        return title
+          ? item.title.includes(title)
+          : true
       })
       const pageList = list.filter((_item, index) => {
         return index >= ~~from && index < (~~from + ~~limit)

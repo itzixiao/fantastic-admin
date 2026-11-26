@@ -28,12 +28,26 @@ function handleClick(text: string) {
 
 const items = [
   [
-    { label: '打开', handle: () => handleClick('打开') },
-    { label: '复制', disabled: true, handle: () => handleClick('复制') },
-    { label: '移动到', disabled: true, handle: () => handleClick('移动到') },
+    {
+      label: '打开',
+      handle: () => handleClick('打开'),
+    },
+    {
+      label: '复制',
+      disabled: true,
+      handle: () => handleClick('复制'),
+    },
+    {
+      label: '移动到',
+      disabled: true,
+      handle: () => handleClick('移动到'),
+    },
   ],
   [
-    { label: '刷新', handle: () => handleClick('刷新') },
+    {
+      label: '刷新',
+      handle: () => handleClick('刷新'),
+    },
   ],
 ] satisfies DropdownItems
 </script>

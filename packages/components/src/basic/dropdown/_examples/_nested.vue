@@ -28,16 +28,28 @@ function handleClick(text: string) {
 
 const items = [
   [
-    { label: '打开', handle: () => handleClick('打开') },
+    {
+      label: '打开',
+      handle: () => handleClick('打开'),
+    },
     {
       label: '更多操作',
       items: [
         [
-          { label: '保存页面', handle: () => handleClick('保存页面') },
-          { label: '导出为 PDF', handle: () => handleClick('导出为 PDF') },
+          {
+            label: '保存页面',
+            handle: () => handleClick('保存页面'),
+          },
+          {
+            label: '导出为 PDF',
+            handle: () => handleClick('导出为 PDF'),
+          },
         ],
         [
-          { label: '复制路径', handle: () => handleClick('复制路径') },
+          {
+            label: '复制路径',
+            handle: () => handleClick('复制路径'),
+          },
         ],
       ],
     },

@@ -32,10 +32,34 @@ const columns: TableColumn<Task>[] = [
 ]
 
 const data: Task[] = [
-  { id: 't-001', title: '完善组件文档', owner: '林舟', priority: '中', updatedAt: '2026-05-23' },
-  { id: 't-002', title: '同步设计变量', owner: '陈念', priority: '高', updatedAt: '2026-05-22' },
-  { id: 't-003', title: '整理示例数据', owner: '周衡', priority: '低', updatedAt: '2026-05-21' },
-  { id: 't-004', title: '回归交互状态', owner: '沈若', priority: '中', updatedAt: '2026-05-20' },
+  {
+    id: 't-001',
+    title: '完善组件文档',
+    owner: '林舟',
+    priority: '中',
+    updatedAt: '2026-05-23',
+  },
+  {
+    id: 't-002',
+    title: '同步设计变量',
+    owner: '陈念',
+    priority: '高',
+    updatedAt: '2026-05-22',
+  },
+  {
+    id: 't-003',
+    title: '整理示例数据',
+    owner: '周衡',
+    priority: '低',
+    updatedAt: '2026-05-21',
+  },
+  {
+    id: 't-004',
+    title: '回归交互状态',
+    owner: '沈若',
+    priority: '中',
+    updatedAt: '2026-05-20',
+  },
 ]
 
 const priorityRank: Record<Task['priority'], number> = {
@@ -78,7 +102,9 @@ const sortedData = computed(() => {
       }
 
       const result = compareSortValue(aVal, bVal)
-      return sort.desc ? -result : result
+      return sort.desc
+        ? -result
+        : result
     }
 
     return 0

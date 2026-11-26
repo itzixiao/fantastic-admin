@@ -39,10 +39,34 @@ const columns: TableColumn<Member>[] = [
 ]
 
 const data: Member[] = [
-  { id: 'm-001', name: '沈若', role: '管理员', team: '平台组', enabled: true },
-  { id: 'm-002', name: '梁一', role: '开发者', team: '体验组', enabled: true },
-  { id: 'm-003', name: '许知', role: '访客', team: '运营组', enabled: false },
-  { id: 'm-004', name: '苏眠', role: '审计员', team: '风控组', enabled: true },
+  {
+    id: 'm-001',
+    name: '沈若',
+    role: '管理员',
+    team: '平台组',
+    enabled: true,
+  },
+  {
+    id: 'm-002',
+    name: '梁一',
+    role: '开发者',
+    team: '体验组',
+    enabled: true,
+  },
+  {
+    id: 'm-003',
+    name: '许知',
+    role: '访客',
+    team: '运营组',
+    enabled: false,
+  },
+  {
+    id: 'm-004',
+    name: '苏眠',
+    role: '审计员',
+    team: '风控组',
+    enabled: true,
+  },
 ]
 
 const selectedRows = shallowRef<Member[]>([])

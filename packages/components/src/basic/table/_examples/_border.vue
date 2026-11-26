@@ -34,10 +34,34 @@ const columns: TableColumn<Project>[] = [
 ]
 
 const data: Project[] = [
-  { id: 'p-001', name: '权限策略整理', owner: '林舟', progress: '72%', status: '进行中' },
-  { id: 'p-002', name: '表格示例拆分', owner: '陈念', progress: '100%', status: '已完成' },
-  { id: 'p-003', name: '数据导出流程', owner: '周衡', progress: '48%', status: '进行中' },
-  { id: 'p-004', name: '菜单体验优化', owner: '沈若', progress: '16%', status: '待处理' },
+  {
+    id: 'p-001',
+    name: '权限策略整理',
+    owner: '林舟',
+    progress: '72%',
+    status: '进行中',
+  },
+  {
+    id: 'p-002',
+    name: '表格示例拆分',
+    owner: '陈念',
+    progress: '100%',
+    status: '已完成',
+  },
+  {
+    id: 'p-003',
+    name: '数据导出流程',
+    owner: '周衡',
+    progress: '48%',
+    status: '进行中',
+  },
+  {
+    id: 'p-004',
+    name: '菜单体验优化',
+    owner: '沈若',
+    progress: '16%',
+    status: '待处理',
+  },
 ]
 </script>
 
