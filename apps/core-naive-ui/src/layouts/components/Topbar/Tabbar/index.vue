@@ -58,7 +58,9 @@ watch(() => route, (val) => {
           // 计算滚动位置，使标签页居中
           const scrollLeft = tabLeft - (containerWidth - tabWidth) / 2
           // 首次加载时直接定位到指定位置
-          tabsRef.value?.scrollTo(scrollLeft, !isInit.value ? 'smooth' : undefined)
+          tabsRef.value?.scrollTo(scrollLeft, !isInit.value
+            ? 'smooth'
+            : undefined)
         }
         tabbarScrollTip()
       }

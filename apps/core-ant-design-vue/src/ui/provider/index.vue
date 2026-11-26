@@ -76,7 +76,9 @@ watch([
 })
 
 const themeConfig = computed(() => ({
-  algorithm: appSettingsStore.currentColorScheme === 'dark' ? [theme.darkAlgorithm] : [theme.defaultAlgorithm],
+  algorithm: appSettingsStore.currentColorScheme === 'dark'
+    ? [theme.darkAlgorithm]
+    : [theme.defaultAlgorithm],
   token: token.value,
 }))
 </script>

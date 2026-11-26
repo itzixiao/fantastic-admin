@@ -74,7 +74,9 @@ export function useModal() {
 
     const updateVNode = () => {
       vnode = createVNode(Modal, Object.assign({
-        'id': instance && instance.uid ? `FaModal-${instance.uid}` : undefined,
+        'id': instance && instance.uid
+          ? `FaModal-${instance.uid}`
+          : undefined,
         'modelValue': visible.value,
         'onUpdate:modelValue': (val: boolean) => {
           visible.value = val
@@ -129,7 +131,10 @@ export function useModal() {
       visible.value = false
     }
     const update = (newOptions: BaseOptions) => {
-      options.value = { ...options.value, ...newOptions }
+      options.value = {
+        ...options.value,
+        ...newOptions,
+      }
     }
     return {
       open,

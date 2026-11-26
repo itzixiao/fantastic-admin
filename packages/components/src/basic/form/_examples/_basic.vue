@@ -29,7 +29,9 @@ const validationSchema = {
     return value ? true : '请选择角色'
   },
   remark(value: string) {
-    return !value || value.length >= 6 ? true : '备注至少 6 个字符'
+    return !value || value.length >= 6
+      ? true
+      : '备注至少 6 个字符'
   },
 }
 

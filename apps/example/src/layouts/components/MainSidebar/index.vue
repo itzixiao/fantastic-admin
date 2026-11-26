@@ -18,10 +18,14 @@ const { generateTitle, switchTo } = useAppMenu()
 
 useHotkeyBindings({
   'menu.next': () => {
-    switchTo(appMenuStore.actived + 1 < appMenuStore.allMenus.length ? appMenuStore.actived + 1 : 0)
+    switchTo(appMenuStore.actived + 1 < appMenuStore.allMenus.length
+      ? appMenuStore.actived + 1
+      : 0)
   },
   'menu.prev': () => {
-    switchTo(appMenuStore.actived - 1 >= 0 ? appMenuStore.actived - 1 : appMenuStore.allMenus.length - 1)
+    switchTo(appMenuStore.actived - 1 >= 0
+      ? appMenuStore.actived - 1
+      : appMenuStore.allMenus.length - 1)
   },
 })
 </script>

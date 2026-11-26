@@ -109,12 +109,16 @@ const labelColStyle = computed<CSSProperties | undefined>(() => {
   }
 
   const width = resolveSize(props.labelWidth)
-  return width ? { width } : undefined
+  return width
+    ? { width }
+    : undefined
 })
 
 function normalizeColumn(column?: number) {
   const resolved = Number(column)
-  return Number.isFinite(resolved) && resolved > 0 ? Math.floor(resolved) : 1
+  return Number.isFinite(resolved) && resolved > 0
+    ? Math.floor(resolved)
+    : 1
 }
 
 function normalizeSpan(span: number | undefined, column: number) {
@@ -175,7 +179,9 @@ function resolveSize(size?: string | number) {
     return undefined
   }
 
-  return typeof size === 'number' ? `${size}px` : size
+  return typeof size === 'number'
+    ? `${size}px`
+    : size
 }
 
 function isEmptyValue(value: DescriptionValue) {
@@ -183,15 +189,21 @@ function isEmptyValue(value: DescriptionValue) {
 }
 
 function resolveValue(value: DescriptionValue) {
-  return isEmptyValue(value) ? props.emptyText : value
+  return isEmptyValue(value)
+    ? props.emptyText
+    : value
 }
 
 function getLabelSlotName(item: TItem): LabelSlotName | undefined {
-  return item.key ? `label-${item.key}` : undefined
+  return item.key
+    ? `label-${item.key}`
+    : undefined
 }
 
 function getValueSlotName(item: TItem): ValueSlotName | undefined {
-  return item.key ? `value-${item.key}` : undefined
+  return item.key
+    ? `value-${item.key}`
+    : undefined
 }
 
 function getRowClass(isLastRow: boolean) {

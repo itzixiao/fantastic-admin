@@ -16,10 +16,14 @@ const model = ref({
 
 const validationSchema = {
   email(value: string) {
-    return /^\S[^\s@]*@\S[^\s.]*\.\S+$/.test(value) ? true : '请输入有效邮箱'
+    return /^\S[^\s@]*@\S[^\s.]*\.\S+$/.test(value)
+      ? true
+      : '请输入有效邮箱'
   },
   nickname(value: string) {
-    return value.length >= 2 ? true : '昵称至少 2 个字符'
+    return value.length >= 2
+      ? true
+      : '昵称至少 2 个字符'
   },
 }
 

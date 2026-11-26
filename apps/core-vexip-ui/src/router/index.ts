@@ -7,7 +7,9 @@ import setupGuards from './guards'
 import { constantRoutes } from './routes'
 
 const router = createRouter({
-  history: useAppSettingsStore(pinia).settings.app.routeMode === 'hash' ? createWebHashHistory() : createWebHistory(),
+  history: useAppSettingsStore(pinia).settings.app.routeMode === 'hash'
+    ? createWebHashHistory()
+    : createWebHistory(),
   routes: constantRoutes,
   strict: true,
 })

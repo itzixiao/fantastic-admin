@@ -117,7 +117,9 @@ export const useAppSettingsStore = defineStore(
       }
       else {
         // 如果是桌面设备，则根据页面宽度判断是否需要切换为移动端展示
-        mode.value = width < 1024 ? 'mobile' : 'pc'
+        mode.value = width < 1024
+          ? 'mobile'
+          : 'pc'
       }
     }
 
@@ -153,7 +155,9 @@ export const useAppSettingsStore = defineStore(
 
     // 更新应用配置
     function updateSettings(data: SettingsOptions, fromBase = false) {
-      const mergedSettings = merge(data, fromBase ? cloneDeep(settingsDefault) : settings.value) as typeof settings.value
+      const mergedSettings = merge(data, fromBase
+        ? cloneDeep(settingsDefault)
+        : settings.value) as typeof settings.value
       settings.value = mergedSettings
     }
 

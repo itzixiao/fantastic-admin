@@ -7,7 +7,9 @@ const appSettingsStore = useAppSettingsStore()
 
 function toggleColorScheme(event: MouseEvent) {
   if (!document.startViewTransition || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    appSettingsStore.currentColorScheme && appSettingsStore.setColorScheme(appSettingsStore.currentColorScheme === 'dark' ? 'light' : 'dark')
+    appSettingsStore.currentColorScheme && appSettingsStore.setColorScheme(appSettingsStore.currentColorScheme === 'dark'
+      ? 'light'
+      : 'dark')
     return
   }
   const target = event.target as HTMLElement
@@ -23,7 +25,9 @@ function toggleColorScheme(event: MouseEvent) {
   const referR = Math.hypot(innerWidth, innerHeight) / Math.SQRT2
   const ratioR = (100 * endRadius) / referR
   const transition = document.startViewTransition(async () => {
-    appSettingsStore.currentColorScheme && appSettingsStore.setColorScheme(appSettingsStore.currentColorScheme === 'dark' ? 'light' : 'dark')
+    appSettingsStore.currentColorScheme && appSettingsStore.setColorScheme(appSettingsStore.currentColorScheme === 'dark'
+      ? 'light'
+      : 'dark')
     await nextTick()
   })
   transition.ready.then(() => {
@@ -33,13 +37,17 @@ function toggleColorScheme(event: MouseEvent) {
     ]
     document.documentElement.animate(
       {
-        clipPath: appSettingsStore.currentColorScheme === 'light' ? clipPath : clipPath.toReversed(),
+        clipPath: appSettingsStore.currentColorScheme === 'light'
+          ? clipPath
+          : clipPath.toReversed(),
       },
       {
         duration: 500,
         easing: 'ease-in-out',
         fill: 'both',
-        pseudoElement: appSettingsStore.currentColorScheme === 'light' ? '::view-transition-new(root)' : '::view-transition-old(root)',
+        pseudoElement: appSettingsStore.currentColorScheme === 'light'
+          ? '::view-transition-new(root)'
+          : '::view-transition-old(root)',
       },
     )
   })

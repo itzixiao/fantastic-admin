@@ -71,7 +71,9 @@ function setupRoutes(router: Router) {
         return {
           name: 'login',
           query: {
-            redirect: to.fullPath !== appSettingsStore.settings.app.home.fullPath ? to.fullPath : undefined,
+            redirect: to.fullPath !== appSettingsStore.settings.app.home.fullPath
+              ? to.fullPath
+              : undefined,
           },
         }
       }

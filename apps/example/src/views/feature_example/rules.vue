@@ -8,7 +8,14 @@ const rules = ref([
   {
     title: '火车车次',
     rule: /^[GCDZTSPKXLY1-9]\d{1,4}$/,
-    examples: ['G1868', 'D102', 'D9', 'Z5', 'Z24', 'Z17'],
+    examples: [
+      'G1868',
+      'D102',
+      'D9',
+      'Z5',
+      'Z24',
+      'Z17',
+    ],
   },
   {
     title: '手机机身码(IMEI)',
@@ -18,7 +25,12 @@ const rules = ref([
   {
     title: '必须带端口号的网址(或ip)',
     rule: /^((ht|f)tps?:\/\/)?[\w-]+(\.[\w-]+)+:\d{1,5}\/?$/,
-    examples: ['https://www.qq.com:8080', '127.0.0.1:5050', 'baidu.com:8001', 'http://192.168.1.1:9090'],
+    examples: [
+      'https://www.qq.com:8080',
+      '127.0.0.1:5050',
+      'baidu.com:8001',
+      'http://192.168.1.1:9090',
+    ],
     counterExamples: ['192.168.1.1', 'https://www.jd.com'],
   },
   {
@@ -28,7 +40,17 @@ const rules = ref([
     // 也参考谷歌浏览器的地址栏, 如果输入非字母不会被识别为域名
     title: '网址(URL)',
     rule: /^(((ht|f)tps?):\/\/)?([^!@#$%^&*?.\s-]([^!@#$%^&*?.\s]{1,64})?\.)+[a-z]{2,6}\/?/,
-    examples: ['www.qq.com', 'https://vuejs.org/v2/api/#v-model', 'www.qq.99', '//www.qq.com', 'www.腾讯.cs', 'ftp://baidu.qq', 'http://baidu.com', 'https://www.amap.com/search?id=BV10060895&city=420111&geoobj=113.207951%7C29.992557%7C115.785782%7C31.204369&query_type=IDQ&query=%E5%85%89%E8%B0%B7%E5%B9%BF%E5%9C%BA(%E5%9C%B0%E9%93%81%E7%AB%99)&zoom=10.15', '360.com:8080/vue/#/a=1&b=2'],
+    examples: [
+      'www.qq.com',
+      'https://vuejs.org/v2/api/#v-model',
+      'www.qq.99',
+      '//www.qq.com',
+      'www.腾讯.cs',
+      'ftp://baidu.qq',
+      'http://baidu.com',
+      'https://www.amap.com/search?id=BV10060895&city=420111&geoobj=113.207951%7C29.992557%7C115.785782%7C31.204369&query_type=IDQ&query=%E5%85%89%E8%B0%B7%E5%B9%BF%E5%9C%BA(%E5%9C%B0%E9%93%81%E7%AB%99)&zoom=10.15',
+      '360.com:8080/vue/#/a=1&b=2',
+    ],
     counterExamples: ['....'],
   },
   {
@@ -71,7 +93,12 @@ const rules = ref([
   {
     title: 'linux文件夹路径',
     rule: /^\/(?:[^/]+\/)*$/,
-    examples: ['/usr/ad/dd/', '/', '/root/', '/ a a / a / a a /'],
+    examples: [
+      '/usr/ad/dd/',
+      '/',
+      '/root/',
+      '/ a a / a / a a /',
+    ],
   },
   {
     title: 'linux文件路径',
@@ -91,7 +118,13 @@ const rules = ref([
   {
     title: '股票代码(A股)',
     rule: /^(s[hz]|S[HZ])(000\d{3}|002\d{3}|300\d{3}|600\d{3}|60\d{4})$/,
-    examples: ['sz000858', 'SZ002136', 'sz300675', 'SH600600', 'sh601155'],
+    examples: [
+      'sz000858',
+      'SZ002136',
+      'sz300675',
+      'SH600600',
+      'sh601155',
+    ],
   },
   {
     title: '大于等于0, 小于等于150, 支持小数位出现5, 如145.5, 用于判断考卷分数',
@@ -147,7 +180,16 @@ const rules = ref([
   {
     title: '数字/货币金额（支持负数、千分位分隔符）',
     rule: /^-?\d{1,3}(,\d{3})*(\.\d{1,2})?$/,
-    examples: [100, -0.99, 3, 234.32, -1, 900, 235.09, '12,345,678.90'],
+    examples: [
+      100,
+      -0.99,
+      3,
+      234.32,
+      -1,
+      900,
+      235.09,
+      '12,345,678.90',
+    ],
   },
   {
     title: '银行卡号（10到30位, 覆盖对公/私账户, 参考[微信支付](https://pay.weixin.qq.com/wiki/doc/api/xiaowei.php?chapter=22_1)）',
@@ -177,13 +219,24 @@ const rules = ref([
   {
     title: '车牌号(新能源+非新能源)',
     rule: /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领][A-HJ-NP-Z][A-HJ-NP-Z0-9]{4,5}[A-HJ-NP-Z0-9挂学警港澳]$/,
-    examples: ['京A12345D', '京A00599', '京AD92035', '甘G23459F', '京AA92035'],
+    examples: [
+      '京A12345D',
+      '京A00599',
+      '京AD92035',
+      '甘G23459F',
+      '京AA92035',
+    ],
     counterExamples: ['宁AD1234555555', '浙苏H6F681'],
   },
   {
     title: '手机号(mobile phone)中国(严谨), 根据工信部最新公布的手机号段',
     rule: /^(?:(?:\+|00)86)?1(?:3\d|4[5-79]|5[0-35-9]|6[5-7]|7[0-8]|8\d|9[0125-9])\d{8}$/,
-    examples: ['008618311006933', '+8617888829981', '19119255642', '19519255642'],
+    examples: [
+      '008618311006933',
+      '+8617888829981',
+      '19119255642',
+      '19519255642',
+    ],
   },
   {
     title: '手机号(mobile phone)中国(宽松), 只要是13,14,15,16,17,18,19开头即可',
@@ -220,7 +273,12 @@ const rules = ref([
     title: '可以被moment转化成功的时间 YYYYMMDD HH:mm:ss',
     rule: /^\d{4}(\S)(1[0-2]|0?[1-9])\1(0?[1-9]|[12]\d|30|31) (?:[01]\d|2[0-3]):[0-5]\d:[0-5]\d$/,
     examples: ['2020/01/01 23:59:59', '2020-01-01 00:00:00', '20200101 11:11:11'],
-    counterExamples: ['2020/00/01 23:59:59', '2020-01/01 23:59:59', '2020-01-01 23:59:61', '2020-01-0100:00:00'],
+    counterExamples: [
+      '2020/00/01 23:59:59',
+      '2020-01/01 23:59:59',
+      '2020-01-01 23:59:61',
+      '2020-01-0100:00:00',
+    ],
   },
   {
     title: 'email(邮箱)',
@@ -252,7 +310,13 @@ const rules = ref([
   {
     title: '护照（包含香港、澳门）',
     rule: /(^[EKGDSPH]\d{8}$)|(^((E[a-f])|([DSP]E)|(KJ)|(MA)|(1[45]))\d{7}$)/i,
-    examples: ['s28233515', '141234567', '159203084', 'MA1234567', 'K25345719'],
+    examples: [
+      's28233515',
+      '141234567',
+      '159203084',
+      'MA1234567',
+      'K25345719',
+    ],
   },
   {
     title: '帐号是否合法(字母开头，允许5-16字节，允许字母数字下划线组合',
@@ -325,12 +389,24 @@ const rules = ref([
   {
     title: 'ip-v4[:端口]',
     rule: /^((\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])(?::(?:\d|[1-9]\d{1,3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5]))?$/,
-    examples: ['172.16.0.0', '172.16.0.0:8080', '127.0.0.0', '127.0.0.0:998'],
+    examples: [
+      '172.16.0.0',
+      '172.16.0.0:8080',
+      '127.0.0.0',
+      '127.0.0.0:998',
+    ],
   },
   {
     title: '16进制颜色',
     rule: /^#?([a-f0-9]{6}|[a-f0-9]{3}|[a-f0-9]{8}|[a-f0-9]{4})$/i,
-    examples: ['#f00', '#F90', '#000', '#fe9de8', '#f8f8f8ff', '#f003'],
+    examples: [
+      '#f00',
+      '#F90',
+      '#000',
+      '#fe9de8',
+      '#f8f8f8ff',
+      '#f003',
+    ],
   },
   {
     title: '微信号(wx)，6至20位，以字母开头，字母，数字，减号，下划线',
@@ -436,7 +512,14 @@ const rules = ref([
   {
     title: '域名(非网址, 不包含协议)',
     rule: /^([0-9a-z-]+\.)+([a-z]{2,})$/i,
-    examples: ['www.baidu.com', 'baidu.com', 'baidu.com.cn', 'api.baidu.com', 'nodejs.org', 'nodejs.cn'],
+    examples: [
+      'www.baidu.com',
+      'baidu.com',
+      'baidu.com.cn',
+      'api.baidu.com',
+      'nodejs.org',
+      'nodejs.cn',
+    ],
     counterExamples: ['http://baidu.com', 'https://baidu.com', 'www.百度.com'],
   },
 
@@ -462,7 +545,9 @@ const dialog = ref({
 
 const validationSchema = {
   test(value: string) {
-    return rules.value[dialog.value.index].rule.test(value) ? true : '不通过'
+    return rules.value[dialog.value.index].rule.test(value)
+      ? true
+      : '不通过'
   },
 }
 

@@ -46,7 +46,9 @@ const documentDir = useTextDirection({
   observe: true,
 })
 
-const dir = computed<Direction>(() => props.dir ?? (documentDir.value === 'rtl' ? 'rtl' : 'ltr'))
+const dir = computed<Direction>(() => props.dir ?? (documentDir.value === 'rtl'
+  ? 'rtl'
+  : 'ltr'))
 const baseId = useId()
 
 watch(value, (newValue) => {

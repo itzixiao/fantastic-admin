@@ -27,7 +27,9 @@ export const useAppTabbarStore = defineStore(
             tabId,
             fullPath: route.fullPath,
             activeMenu: meta?.activeMenu,
-            title: typeof meta?.title === 'function' ? meta.title() : meta?.title,
+            title: typeof meta?.title === 'function'
+              ? meta.title()
+              : meta?.title,
             icon: meta?.icon ?? route.matched?.findLast(item => item.meta?.icon)?.meta?.icon,
             name: names,
           }
@@ -44,7 +46,9 @@ export const useAppTabbarStore = defineStore(
           findTab.tabId = tabId
           findTab.fullPath = route.fullPath
           findTab.activeMenu = meta?.activeMenu
-          findTab.title = typeof meta?.title === 'function' ? meta.title() : meta?.title
+          findTab.title = typeof meta?.title === 'function'
+            ? meta.title()
+            : meta?.title
           findTab.icon = meta?.icon ?? route.matched?.findLast(item => item.meta?.icon)?.meta?.icon
         }
       }

@@ -249,7 +249,9 @@ function parseNumericWidth(width?: number | string) {
 
   if (typeof width === 'string') {
     const matched = width.trim().match(/^(\d+(?:\.\d+)?)px$/)
-    return matched ? Number(matched[1]) : undefined
+    return matched
+      ? Number(matched[1])
+      : undefined
   }
 
   return undefined
@@ -257,7 +259,9 @@ function parseNumericWidth(width?: number | string) {
 
 function getColumnId(column: TableColumn<TData, any>): string | undefined {
   if (isSelectionColumnDef(column)) {
-    return column.id ? String(column.id) : SELECTION_COLUMN_ID
+    return column.id
+      ? String(column.id)
+      : SELECTION_COLUMN_ID
   }
 
   if (column.id) {
@@ -382,7 +386,9 @@ function resolveRowId(row: TData, index: number, parent?: Row<FaTableFeatures, T
     }
   }
 
-  return parent ? `${parent.id}.${index}` : String(index)
+  return parent
+    ? `${parent.id}.${index}`
+    : String(index)
 }
 
 function resolveSubRows(row: TData, index: number): readonly TData[] | undefined {
@@ -395,7 +401,9 @@ function resolveSubRows(row: TData, index: number): readonly TData[] | undefined
   }
 
   const children = (row as Record<string, unknown>).children
-  return Array.isArray(children) ? children as TData[] : undefined
+  return Array.isArray(children)
+    ? children as TData[]
+    : undefined
 }
 
 function isRowSelectionDisabled(row: Row<FaTableFeatures, TData>) {
@@ -413,7 +421,9 @@ function syncSingleRowSelection() {
   }
 
   const selectedId = selectedIds.at(-1)
-  rowSelection.value = selectedId ? { [selectedId]: true } : {}
+  rowSelection.value = selectedId
+    ? { [selectedId]: true }
+    : {}
 }
 
 function handleRowSelectionChange(updaterOrValue: Updater<RowSelectionState>) {
@@ -558,7 +568,10 @@ watch(
 )
 
 watch(
-  [rowSelection, () => props.data],
+  [
+    rowSelection,
+    () => props.data,
+  ],
   () => {
     emit('selectionChange', selectedRows.value, rowSelection.value)
   },
@@ -655,7 +668,9 @@ function getTreeCellIndentStyle(row: Row<FaTableFeatures, TData>): CSSProperties
 }
 
 function getTreeToggleIconName(row: Row<FaTableFeatures, TData>) {
-  return row.getIsExpanded() ? 'i-lucide:chevron-down' : 'i-lucide:chevron-right'
+  return row.getIsExpanded()
+    ? 'i-lucide:chevron-down'
+    : 'i-lucide:chevron-right'
 }
 
 function handleToggleRowExpanded(row: Row<FaTableFeatures, TData>) {
@@ -679,15 +694,25 @@ function resolveSize(size?: number | string) {
     return undefined
   }
 
-  return typeof size === 'number' ? `${size}px` : size
+  return typeof size === 'number'
+    ? `${size}px`
+    : size
 }
 
 function getColumnStyle(column: Column<FaTableFeatures, TData, unknown>): CSSProperties | undefined {
   const columnDef = column.columnDef as TableColumn<TData, unknown>
   const pin = column.getIsPinned()
-  const width = resolveSize(columnDef.width ?? (pin ? column.getSize() : columnDef.size && columnDef.size !== 150 ? columnDef.size : undefined))
-  const minSize = columnDef.minSize && columnDef.minSize !== 20 ? columnDef.minSize : undefined
-  const maxSize = columnDef.maxSize && columnDef.maxSize !== Number.MAX_SAFE_INTEGER ? columnDef.maxSize : undefined
+  const width = resolveSize(columnDef.width ?? (pin
+    ? column.getSize()
+    : columnDef.size && columnDef.size !== 150
+      ? columnDef.size
+      : undefined))
+  const minSize = columnDef.minSize && columnDef.minSize !== 20
+    ? columnDef.minSize
+    : undefined
+  const maxSize = columnDef.maxSize && columnDef.maxSize !== Number.MAX_SAFE_INTEGER
+    ? columnDef.maxSize
+    : undefined
   const minWidth = resolveSize(columnDef.minWidth ?? minSize)
   const maxWidth = resolveSize(columnDef.maxWidth ?? maxSize)
   const style: CSSProperties = {}
@@ -724,7 +749,9 @@ function resolveColumnClass<TContext>(
   columnClass: ColumnClass<TContext> | undefined,
   context: TContext,
 ) {
-  return typeof columnClass === 'function' ? columnClass(context) : columnClass
+  return typeof columnClass === 'function'
+    ? columnClass(context)
+    : columnClass
 }
 
 function getHeaderClass(header: Header<FaTableFeatures, TData, unknown>) {
@@ -791,7 +818,9 @@ function getPinnedColumnClass(column: Column<FaTableFeatures, TData, unknown>, a
 
   return cn(
     'sticky',
-    area === 'header' ? 'z-3' : 'z-1',
+    area === 'header'
+      ? 'z-3'
+      : 'z-1',
     area === 'cell' && 'bg-background transition-colors',
     pin === 'start' && column.getIsLastColumn('start') && 'shadow-[4px_0_6px_-4px_rgb(0_0_0/0.18)]',
     pin === 'end' && column.getIsFirstColumn('end') && 'shadow-[-4px_0_6px_-4px_rgb(0_0_0/0.18)]',
@@ -805,7 +834,9 @@ function isLastVisibleLeafColumn(column: Column<FaTableFeatures, TData, unknown>
 function getNextVisibleLeafColumn(column: Column<FaTableFeatures, TData, unknown>) {
   const columns = table.getVisibleLeafColumns()
   const columnIndex = columns.findIndex(item => item.id === column.id)
-  return columnIndex === -1 ? undefined : columns[columnIndex + 1]
+  return columnIndex === -1
+    ? undefined
+    : columns[columnIndex + 1]
 }
 
 function getVisiblePinnedColumns(pin: TablePinnedPosition) {
@@ -846,7 +877,9 @@ function getHeaderBorderClass(header: Header<FaTableFeatures, TData, unknown>) {
     return undefined
   }
 
-  return isLastVisibleLeafColumn(lastLeafColumn) ? undefined : 'border-r'
+  return isLastVisibleLeafColumn(lastLeafColumn)
+    ? undefined
+    : 'border-r'
 }
 
 function getCellBorderClass(cell: Cell<FaTableFeatures, TData, unknown>) {
@@ -873,7 +906,9 @@ function getCellBorderClass(cell: Cell<FaTableFeatures, TData, unknown>) {
     return undefined
   }
 
-  return isLastVisibleLeafColumn(cell.column) ? undefined : 'border-r'
+  return isLastVisibleLeafColumn(cell.column)
+    ? undefined
+    : 'border-r'
 }
 
 function getRowClass(row: Row<FaTableFeatures, TData>, rowIndex: number) {
@@ -883,7 +918,9 @@ function getRowClass(row: Row<FaTableFeatures, TData>, rowIndex: number) {
     props.stripe && rowIndex % 2 === 1 && '[&>td]:bg-muted/50',
     props.stripe && rowIndex % 2 === 1 && '[&>td[data-pinned]]:bg-muted',
     stripeInteractionClass.value,
-    typeof props.rowClass === 'function' ? props.rowClass(row) : props.rowClass,
+    typeof props.rowClass === 'function'
+      ? props.rowClass(row)
+      : props.rowClass,
   )
 }
 
@@ -920,7 +957,9 @@ function getSortIconName(header: Header<FaTableFeatures, TData, unknown>) {
 function getSortIconClass(header: Header<FaTableFeatures, TData, unknown>) {
   return cn(
     'shrink-0 size-3.5',
-    header.column.getIsSorted() ? 'text-primary' : 'text-muted-foreground/80',
+    header.column.getIsSorted()
+      ? 'text-primary'
+      : 'text-muted-foreground/80',
   )
 }
 

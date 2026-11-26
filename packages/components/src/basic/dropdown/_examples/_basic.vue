@@ -18,9 +18,18 @@ function handleClick(text: string) {
 
 const items = [
   [
-    { label: '查看详情', handle: () => handleClick('查看详情') },
-    { label: '编辑', handle: () => handleClick('编辑') },
-    { label: '复制', handle: () => handleClick('复制') },
+    {
+      label: '查看详情',
+      handle: () => handleClick('查看详情'),
+    },
+    {
+      label: '编辑',
+      handle: () => handleClick('编辑'),
+    },
+    {
+      label: '复制',
+      handle: () => handleClick('复制'),
+    },
   ],
 ] satisfies DropdownItem[][]
 </script>

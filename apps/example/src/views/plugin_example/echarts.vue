@@ -36,7 +36,17 @@ function initChart1() {
       },
     },
     legend: {
-      data: ['直接访问', '邮件营销', '联盟广告', '视频广告', '搜索引擎', '百度', '谷歌', '必应', '其他'],
+      data: [
+        '直接访问',
+        '邮件营销',
+        '联盟广告',
+        '视频广告',
+        '搜索引擎',
+        '百度',
+        '谷歌',
+        '必应',
+        '其他',
+      ],
     },
     grid: {
       left: '3%',
@@ -47,7 +57,15 @@ function initChart1() {
     xAxis: [
       {
         type: 'category',
-        data: ['周一', '周二', '周三', '周四', '周五', '周六', '周日'],
+        data: [
+          '周一',
+          '周二',
+          '周三',
+          '周四',
+          '周五',
+          '周六',
+          '周日',
+        ],
       },
     ],
     yAxis: [
@@ -88,7 +106,10 @@ function initChart1() {
             type: 'dashed',
           },
           data: [
-            [{ type: 'min' }, { type: 'max' }],
+            [
+              { type: 'min' },
+              { type: 'max' },
+            ],
           ],
         },
       },
@@ -156,7 +177,15 @@ function initChart2() {
       {
         type: 'category',
         boundaryGap: false,
-        data: ['周一', '周二', '周三', '周四', '周五', '周六', '周日'],
+        data: [
+          '周一',
+          '周二',
+          '周三',
+          '周四',
+          '周五',
+          '周六',
+          '周日',
+        ],
       },
     ],
     yAxis: [
@@ -270,20 +299,29 @@ function initChart4() {
         { name: '市场（Marketing）', max: 25000 },
       ],
     },
-    series: [{
-      name: '预算 vs 开销（Budget vs spending）',
-      type: 'radar',
-      data: [
-        {
-          value: [4200, 3000, 20000, 35000, 50000, 18000],
-          name: '预算分配（Allocated Budget）',
-        },
-        {
-          value: [5000, 14000, 28000, 26000, 42000, 21000],
-          name: '实际开销（Actual Spending）',
-        },
-      ],
-    }],
+    series: [
+      {
+        name: '预算 vs 开销（Budget vs spending）',
+        type: 'radar',
+        data: [
+          {
+            value: [4200, 3000, 20000, 35000, 50000, 18000],
+            name: '预算分配（Allocated Budget）',
+          },
+          {
+            value: [
+              5000,
+              14000,
+              28000,
+              26000,
+              42000,
+              21000,
+            ],
+            name: '实际开销（Actual Spending）',
+          },
+        ],
+      },
+    ],
   }
   // 传入数据
   chart4.setOption(option)

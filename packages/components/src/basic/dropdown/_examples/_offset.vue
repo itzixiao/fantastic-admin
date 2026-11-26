@@ -28,8 +28,16 @@ function handleClick(text: string) {
 
 const items = [
   [
-    { label: '新建文件', icon: 'i-lucide:file-plus', handle: () => handleClick('新建文件') },
-    { label: '新建文件夹', icon: 'i-lucide:folder-plus', handle: () => handleClick('新建文件夹') },
+    {
+      label: '新建文件',
+      icon: 'i-lucide:file-plus',
+      handle: () => handleClick('新建文件'),
+    },
+    {
+      label: '新建文件夹',
+      icon: 'i-lucide:folder-plus',
+      handle: () => handleClick('新建文件夹'),
+    },
   ],
 ] satisfies DropdownItems
 </script>

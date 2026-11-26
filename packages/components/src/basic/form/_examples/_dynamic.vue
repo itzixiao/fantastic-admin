@@ -40,11 +40,15 @@ function removeContact(index: number) {
 }
 
 function validateName(value?: string) {
-  return value?.trim() ? true : '请输入联系人姓名'
+  return value?.trim()
+    ? true
+    : '请输入联系人姓名'
 }
 
 function validatePhone(value?: string) {
-  return /^1[3-9]\d{9}$/.test(value ?? '') ? true : '请输入有效手机号'
+  return /^1[3-9]\d{9}$/.test(value ?? '')
+    ? true
+    : '请输入有效手机号'
 }
 
 function handleSubmit(values: Record<string, unknown>) {

@@ -89,8 +89,17 @@ export async function main() {
   )
 
   // 使用 spawn 运行 eslint
-  const eslintCommand = process.platform === 'win32' ? 'pnpm.cmd' : 'pnpm'
-  const eslint = spawn(eslintCommand, ['exec', 'eslint', 'src/iconify/data.json', 'src/iconify/index.json', '--cache', '--fix'], {
+  const eslintCommand = process.platform === 'win32'
+    ? 'pnpm.cmd'
+    : 'pnpm'
+  const eslint = spawn(eslintCommand, [
+    'exec',
+    'eslint',
+    'src/iconify/data.json',
+    'src/iconify/index.json',
+    '--cache',
+    '--fix',
+  ], {
     stdio: 'inherit',
   })
 

@@ -40,8 +40,20 @@ const data: Task[] = [
     status: '进行中',
     updatedAt: '2026-05-23',
     children: [
-      { id: 't-001-1', title: '补充树型表格', owner: '林舟', status: '进行中', updatedAt: '2026-05-23' },
-      { id: 't-001-2', title: '完善列显示控制', owner: '陈念', status: '待处理', updatedAt: '2026-05-22' },
+      {
+        id: 't-001-1',
+        title: '补充树型表格',
+        owner: '林舟',
+        status: '进行中',
+        updatedAt: '2026-05-23',
+      },
+      {
+        id: 't-001-2',
+        title: '完善列显示控制',
+        owner: '陈念',
+        status: '待处理',
+        updatedAt: '2026-05-22',
+      },
     ],
   },
   {
@@ -58,12 +70,24 @@ const data: Task[] = [
         status: '已完成',
         updatedAt: '2026-05-21',
         children: [
-          { id: 't-002-1-1', title: '校验暗色模式', owner: '沈若', status: '已完成', updatedAt: '2026-05-20' },
+          {
+            id: 't-002-1-1',
+            title: '校验暗色模式',
+            owner: '沈若',
+            status: '已完成',
+            updatedAt: '2026-05-20',
+          },
         ],
       },
     ],
   },
-  { id: 't-003', title: '回归交互状态', owner: '沈若', status: '进行中', updatedAt: '2026-05-20' },
+  {
+    id: 't-003',
+    title: '回归交互状态',
+    owner: '沈若',
+    status: '进行中',
+    updatedAt: '2026-05-20',
+  },
 ]
 </script>
 

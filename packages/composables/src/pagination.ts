@@ -35,7 +35,9 @@ export function usePagination() {
 
   async function onSortChange(prop: string, order: string) {
     pagination.value.sort = prop
-    pagination.value.order = order === 'ascending' ? 'asc' : 'desc'
+    pagination.value.order = order === 'ascending'
+      ? 'asc'
+      : 'desc'
   }
 
   return {

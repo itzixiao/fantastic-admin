@@ -11,11 +11,38 @@ type ProfileItem = DescriptionItem<{
 }>
 
 const items: ProfileItem[] = [
-  { key: 'username', label: 'Username', value: 'kooriokami', icon: 'i-lucide:user' },
-  { key: 'telephone', label: 'Telephone', value: '18100000000', icon: 'i-lucide:smartphone' },
-  { key: 'place', label: 'Place', value: 'Suzhou', icon: 'i-lucide:map-pin' },
-  { key: 'remarks', label: 'Remarks', value: 'School', icon: 'i-lucide:notebook-text', tagVariant: 'outline' },
-  { key: 'address', label: 'Address', value: 'No.1188, Wuzhong Avenue, Wuzhong District, Suzhou, Jiangsu Province', icon: 'i-lucide:building-2', span: 2 },
+  {
+    key: 'username',
+    label: 'Username',
+    value: 'kooriokami',
+    icon: 'i-lucide:user',
+  },
+  {
+    key: 'telephone',
+    label: 'Telephone',
+    value: '18100000000',
+    icon: 'i-lucide:smartphone',
+  },
+  {
+    key: 'place',
+    label: 'Place',
+    value: 'Suzhou',
+    icon: 'i-lucide:map-pin',
+  },
+  {
+    key: 'remarks',
+    label: 'Remarks',
+    value: 'School',
+    icon: 'i-lucide:notebook-text',
+    tagVariant: 'outline',
+  },
+  {
+    key: 'address',
+    label: 'Address',
+    value: 'No.1188, Wuzhong Avenue, Wuzhong District, Suzhou, Jiangsu Province',
+    icon: 'i-lucide:building-2',
+    span: 2,
+  },
 ]
 </script>
 

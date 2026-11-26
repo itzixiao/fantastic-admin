@@ -49,7 +49,9 @@ const buttonStyle = computed<CSSProperties>(() => ({
 
 function getButtonElement() {
   const el = buttonRef.value?.$el
-  return el instanceof HTMLElement ? el : null
+  return el instanceof HTMLElement
+    ? el
+    : null
 }
 
 function clamp(value: number, min: number, max: number) {
@@ -83,7 +85,9 @@ function setButtonPosition(left = buttonState.value.left, top = buttonState.valu
 function snapToSide(side: SnapSide) {
   const bounds = getViewportBounds()
   buttonState.value.snapSide = side
-  buttonState.value.left = side === 'left' ? bounds.minLeft : bounds.maxLeft
+  buttonState.value.left = side === 'left'
+    ? bounds.minLeft
+    : bounds.maxLeft
   buttonState.value.top = clamp(buttonState.value.top, bounds.minTop, bounds.maxTop)
 }
 
@@ -168,7 +172,9 @@ function finishDrag(target?: EventTarget | null) {
   }
 
   if (shouldSuppressClick) {
-    const nextSide: SnapSide = buttonState.value.left + buttonState.value.width / 2 <= window.innerWidth / 2 ? 'left' : 'right'
+    const nextSide: SnapSide = buttonState.value.left + buttonState.value.width / 2 <= window.innerWidth / 2
+      ? 'left'
+      : 'right'
     snapToSide(nextSide)
   }
 

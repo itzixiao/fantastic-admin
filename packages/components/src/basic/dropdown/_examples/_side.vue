@@ -28,8 +28,16 @@ function handleClick(text: string) {
 
 const items = [
   [
-    { label: 'Preview', icon: 'i-lucide:eye', handle: () => handleClick('Preview') },
-    { label: 'Duplicate', icon: 'i-lucide:copy', handle: () => handleClick('Duplicate') },
+    {
+      label: 'Preview',
+      icon: 'i-lucide:eye',
+      handle: () => handleClick('Preview'),
+    },
+    {
+      label: 'Duplicate',
+      icon: 'i-lucide:copy',
+      handle: () => handleClick('Duplicate'),
+    },
   ],
 ] satisfies DropdownItems
 </script>

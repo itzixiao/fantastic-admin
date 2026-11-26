@@ -16,11 +16,26 @@ const props = withDefaults(
   {
     password: '',
     rules: () => [
-      { label: '长度至少为8个字符', rule: value => value.length >= 8 },
-      { label: '包含大写字母', rule: value => /[A-Z]/.test(value) },
-      { label: '包含小写字母', rule: value => /[a-z]/.test(value) },
-      { label: '包含数字', rule: value => /\d/.test(value) },
-      { label: '包含特殊字符', rule: value => /[^A-Z0-9]/i.test(value) },
+      {
+        label: '长度至少为8个字符',
+        rule: value => value.length >= 8,
+      },
+      {
+        label: '包含大写字母',
+        rule: value => /[A-Z]/.test(value),
+      },
+      {
+        label: '包含小写字母',
+        rule: value => /[a-z]/.test(value),
+      },
+      {
+        label: '包含数字',
+        rule: value => /\d/.test(value),
+      },
+      {
+        label: '包含特殊字符',
+        rule: value => /[^A-Z0-9]/i.test(value),
+      },
     ],
     colorThresholds: () => [
       { min: 0, color: 'bg-red-500' },
@@ -49,7 +64,9 @@ const ruleStates = computed(() => props.rules.map(item => ({
 const maxStrength = computed(() => props.rules.length)
 const strength = computed(() => ruleStates.value.filter(item => item.matched).length)
 
-const progressWidth = computed(() => maxStrength.value > 0 ? `${(strength.value / maxStrength.value) * 100}%` : '0%')
+const progressWidth = computed(() => maxStrength.value > 0
+  ? `${(strength.value / maxStrength.value) * 100}%`
+  : '0%')
 
 const strengthColor = computed(() => {
   return [...props.colorThresholds]

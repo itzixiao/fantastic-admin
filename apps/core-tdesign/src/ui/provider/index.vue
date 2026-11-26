@@ -52,7 +52,7 @@ if (isSupportColorMix) {
 </script>
 
 <template>
-  <TConfigProvider :global-config="merge({} as GlobalConfigProvider, zhCN)">
+  <TConfigProvider :global-config="merge({}, zhCN) as GlobalConfigProvider">
     <slot />
   </TConfigProvider>
 </template>

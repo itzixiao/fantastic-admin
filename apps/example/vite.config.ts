@@ -33,7 +33,9 @@ export default defineConfig(({ mode, command }) => {
     },
     // 构建选项 https://cn.vitejs.dev/config/build-options
     build: {
-      outDir: mode === 'production' ? 'dist' : `dist-${mode}`,
+      outDir: mode === 'production'
+        ? 'dist'
+        : `dist-${mode}`,
       sourcemap: env.VITE_BUILD_SOURCEMAP,
     },
     define: {

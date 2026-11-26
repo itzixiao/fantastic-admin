@@ -52,7 +52,9 @@ function initChart1() {
     xField: ['type', 'country'],
     yField: 'value',
     seriesField: 'country',
-    legends: [{ visible: true, position: 'middle', orient: 'bottom' }],
+    legends: [
+      { visible: true, position: 'middle', orient: 'bottom' },
+    ],
     animationAppear: {
       duration: 500,
       oneByOne: true,
@@ -125,7 +127,9 @@ function initChart2() {
       duration: 1500,
       easing: 'linear',
     },
-    legends: [{ visible: true, position: 'middle', orient: 'bottom' }],
+    legends: [
+      { visible: true, position: 'middle', orient: 'bottom' },
+    ],
     axes: [
       {
         orient: 'left',

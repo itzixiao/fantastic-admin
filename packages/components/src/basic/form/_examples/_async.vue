@@ -28,7 +28,9 @@ const validationSchema = {
     return available ? true : '该用户名已被占用'
   },
   email(value: string) {
-    return /^\S[^\s@]*@\S[^\s.]*\.\S+$/.test(value) ? true : '请输入有效邮箱'
+    return /^\S[^\s@]*@\S[^\s.]*\.\S+$/.test(value)
+      ? true
+      : '请输入有效邮箱'
   },
 }
 

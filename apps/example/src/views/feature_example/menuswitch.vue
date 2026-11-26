@@ -5,11 +5,15 @@ const appMenuStore = useAppMenuStore()
 const appMenu = useAppMenu()
 
 function switchToPrev() {
-  appMenu.switchTo(appMenuStore.actived - 1 >= 0 ? appMenuStore.actived - 1 : appMenuStore.allMenus.length - 1)
+  appMenu.switchTo(appMenuStore.actived - 1 >= 0
+    ? appMenuStore.actived - 1
+    : appMenuStore.allMenus.length - 1)
 }
 
 function switchToNext() {
-  appMenu.switchTo(appMenuStore.actived + 1 < appMenuStore.allMenus.length ? appMenuStore.actived + 1 : 0)
+  appMenu.switchTo(appMenuStore.actived + 1 < appMenuStore.allMenus.length
+    ? appMenuStore.actived + 1
+    : 0)
 }
 </script>
 
